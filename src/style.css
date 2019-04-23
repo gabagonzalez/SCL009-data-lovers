@@ -1,0 +1,33 @@
+
+.title-lol{
+    display: block;
+    margin: auto;
+    width: 30%;
+    
+}
+
+.logo-lol{
+    position: fixed;
+    display: flex;
+    justify-content: left;
+    width: 10%;
+    padding-bottom: 0;
+}
+.body-champs{
+    background-image: url(https://goodgamegigi.files.wordpress.com/2014/09/league-of-legends-wallpaper-1920x1080-draven-hd-background-9.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+.search-bar{
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(217, 217, 219,0.8);
+    padding: 8px;
+    width: 90%;
+    margin: 20px auto auto auto;
+}
+section{
+    margin: auto;
+}
