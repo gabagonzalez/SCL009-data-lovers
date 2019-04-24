@@ -19,9 +19,7 @@ container.innerHTML += `
     </div>
     </div>
 </div>
-
-`                                                           
-    //console.log(lolValues[i].id);
+`    //console.log(lolValues[i].id);
 }
 /*
 //vamos a meter todo al div "root"
