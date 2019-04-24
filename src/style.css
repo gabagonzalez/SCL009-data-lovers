@@ -63,7 +63,7 @@
 #flip-container{
     -webkit-perspective: 1000px;
   perspective: 1000px;
-  padding: 50px
+  padding: 50px;
   position: relative;
   margin: 10px auto;
   width: 100px;
