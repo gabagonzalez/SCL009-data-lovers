@@ -8,16 +8,18 @@ const container = document.getElementById("root");
 for(let i=0; i < lolValues.length; i++){  
 
 container.innerHTML += `
-
-<div class="card" >
-<div class="card-body float:left;">
-    <img src="${lolValues[i].img}" class="card-img-top" alt="...">
-    <div class="card-down float:right">
-    <h5 class="card-title">${lolValues[i].id}</h5>
+    <div id="flip-container">
+     <div class='cards'>
+      <img class='front' src="${lolValues[i].img}"/>
+      <hr>
+      <div class='back'>
+        <li class='name'> ${lolValues[i].id}</li>
+        <li class='title'> ${lolValues[i].title}</li>
+      </div>
     </div>
-    </div>
-</div>
-`    
+    </div> 
+    `
+   
 }
 
 window.onload = showLol(lolValues);

@@ -1,27 +1,101 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
   <title>Champions Lovers of League of Legends - Data Lovers</title>
   <link rel="icon" type="image/png" href="./img/icon-game-lol.png">
-  <link rel="stylesheet" href="style.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-  <body>
-    
-    <div id="root"></div>
-    <!-- <script src="./data/injuries/injuries.js"></script> -->
-    <!-- <script src="./data/pokemon/pokemon.js"></script> -->
-    <!-- <script src="./data/steam/steam.js"></script> -->
-    <!-- <script src="./data/worldbank/worldbank.js"></script>-->
-    <script src="./data/lol/lol.js"></script> 
-    <script src="data.js"></script>
-    <script src="main.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="body-champs">
+  <header>
+    <a href="./index.html"><img src="https://i.ibb.co/nM8n62m/logoLOL.png" alt="" class="logo-lol"></a>
+    <a href="./index.html"><img src="https://i.ibb.co/RQ4cQR7/League-of-Legends.png" alt="" class="title-lol"></a>
+    <ul class="menu-bar">
+      <li class="menu-option"><a >ORDENA</a>
+        <fieldset id="champs-sort" class="champs-sort">
+          <div id="lol-sort-option" class="lol-sort-option">
+            <label value="0">Ordenar</label>
+            <!--<input type="button" value="VER CAMPEONES!!" id="show-btn">-->
+          </div>
+          <select id="lol-sort" name="orden" class="lol-sort">
+            <option value="00">A-Z</option>
+            <option value="01">Z-A</option>
+            <option value="02">DIFICULTAD ASC</option>
+            <option value="03">DIFCULTAD DESC</option>
+          </select>
+        </fieldset>
+      </li>
+      <li class="menu-option"><a >ENCUENTRA x ROL</a>
+        <fieldset id="champions-search" class="champions-search">
+          <input type="text" id="search-for-champion" class="search-for-champion" name="q" placeholder="Buscar Campeones" autocomplete="on" value="">
+              <button id="search-btn" class="search-btn" type="button">
+              <img src="img/lupita.png" alt="">
+              </button>
+        </fieldset>
+      </li>
+      <fieldset id="champs-filter" class="champs-filter">
+        <div id="lol-filter-option" class="lol-filter-option">
+          <label value="0">FILTRA</label>
+        </div>
+        <div class="filter col-5 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+          <select id="lol-filter" name="filt" class="lol-filter">
+            <option value="" selected>Filter by Rol</option>
+            <option value="Assassin">Assassin</option>
+            <option value="Fighter">Defensa</option>
+            <option value="Fighting">Fighter</option>
+            <option value="Mage">Mage</option>
+            <option value="Marksman">Marksman</option>
+            <option value="Tank">Tank</option>
+            <option value="Support">Support</option>
+          </select>
+        </div>  
+      </fieldset>
+    </ul>
+  </header>
+
+  <form class="search-bar">
+    <h3> TU CAMPEON IDEAL!! ... 
+      POR DIFICULTAD O POR ROL..
+      VE QUE SUGERENCIA DE CAMPEON TE APARECE ;) </h3>
+    <!--<fieldset id="champions-filter" class="champions-filter">
+          <label class="checkbox-inline">
+        <input class="filter-champ" type="checkbox" id="assassin" value="Assassin">Assassin
+      </label>
+      <label class="checkbox-inline">
+        <input class="filter-champ" type="checkbox" id="fighter" value="Fighter">Fighter
+      </label>
+      <label class="checkbox-inline">
+        <input class="filter-champ" type="checkbox" id="mage" value="Mage">Mage
+      </label>
+      <label class="checkbox-inline">
+        <input class="filter-champ" type="checkbox" id="marksman" value="Marksman">Marksman
+      </label>
+      <label class="checkbox-inline">
+        <input class="filter-champ" type="checkbox" id="support" value="Support">Support
+      </label>
+      <label class="checkbox-inline">
+        <input class="filter-champ" type="checkbox" id="tank" value="Tank">Tank
+      </label>
+    </fieldset>-->
+  </form>  
+  <div id="root"></div>
+  <footer>
+    <div class="container-footer"> 
+      <a href="https://lan.leagueoflegends.com/es/tag/facebook" target="blanck"><img class = "iconf" src="./img/facebook.png" alt=""></a>
+      <a href="https://www.instagram.com/leagueoflegends/?hl=es-la" target="blanck"><img class="iconf" src="./img/instagram.png" alt=""></a>
+      <a href="https://www.youtube.com/channel/UC2t5bjwHdUX4vM2g8TRDq5g" target="blanck"><img class="iconf" src="./img/youtube.png" alt=""></a>
+    </div>
+  </footer>
+  </div>
+  <script src="./data/lol/lol.js"></script>
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
 </html>
-
-
