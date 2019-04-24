@@ -1,0 +1,42 @@
+#root{
+    display: flex;
+    flex-flow: row wrap;
+    /*justify-content: space-evenly; */
+  }
+
+.card{
+
+    /*border: 3px;
+    display: inline-block;
+    width: auto;
+    margin: auto;
+    text-align: left;*/
+
+    width: 200px;
+    height: 100px;
+    margin: 2em;
+    border-radius: 1em;
+    margin-top: 4rem;
+    text-align: center;  
+  }
+
+.card-body{
+    /*img*/
+    float:left;
+    width: 95px;
+    height: 95px;
+    text-align: left;
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+    /*font-size: 20px;*/ 
+     background-color:white;
+
+}
+
+.card-down{
+    /*nombre*/
+    float:right;
+    text-align: left; 
+    width: auto;
+    margin: auto;
+
+}
