@@ -584,7 +584,7 @@ const LOL = {
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Blitzcrank.png",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_0.jpg,
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_0.jpg",
       blurb:
         "Zaun is a place where both magic and science have gone awry, and the unchecked nature of experimentation has taken its toll. However, Zaun's lenient restrictions allow their researchers and inventors the leeway to push the bounds of science at an ...",
       info: {

@@ -40,33 +40,29 @@
     background-color: rgba(217, 217, 219,0.8);
     padding: 8px;
     width: 90%;
-    margin: 20px auto auto auto;
+    margin:root
 }
-#container-listChampions{
+#root {
     display: flex;
     flex-wrap: Wrap;
     flex-direction: row;
     justify-content: center;
     list-style: none;
     justify-content: space-between;
-}
-#container-listChampions{
     margin-top: 25px;
-}
-
-#container-listChampions{ 
     background: rgb(12, 12, 12, 0.9);
     outline-style: ridge;
     outline-color: #ffde44;
     border: #f2bc00 solid 1px;
 }
+
 #flip-container{
     -webkit-perspective: 1000px;
   perspective: 1000px;
   padding: 50px;
   position: relative;
   margin: 10px auto;
-  width: 100px;
+  /*width: 100px;*/
 
 }
 .cards {
@@ -120,7 +116,7 @@ footer{
     position: fixed;
     bottom: 0;
 }
-.container-footer{
+container-footer{
     width: 100%;
     max-width: 2300px;    
 }
