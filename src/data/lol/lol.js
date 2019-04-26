@@ -6973,4 +6973,4 @@ const LOL = {
     }
   }
 };
-window.LOL = LOL;
+window.LOL = LOL; // para poder exportar la datay hacer los test

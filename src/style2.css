@@ -1,0 +1,14 @@
+.body-champs{
+
+    /*background-image: url("img/fondo2.jpg");
+    background-image: url("img/fondo4.jpg");
+    background-image: url("img/fondo5.jpg");*/
+    background-image: url("img/fondo6.jpg");
+   /*background-image: url("img/fondo7.jpg");*/
+    /*background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqDranG2o_3Lh82X1a0X2PDfc0HYsIwNaHLp5KDTmSmhGTllBC);*/
+    /*https://goodgamegigi.files.wordpress.com/2014/09/league-of-legends-wallpaper-1920x1080-draven-hd-background-9.jpg*/
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}

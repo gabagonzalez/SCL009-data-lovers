@@ -6,19 +6,20 @@
   <title>Champions Lovers of League of Legends - Data Lovers</title>
   <link rel="icon" type="image/png" href="./img/icon-game-lol.png">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body class="body-champs">
   <header>
-    <a href="./index.html"><img src="https://i.ibb.co/nM8n62m/logoLOL.png" alt="" class="logo-lol"></a>
+    <!--<a href="./index.html"><img src="https://i.ibb.co/nM8n62m/logoLOL.png" alt="" class="logo-lol"></a>-->
+    <img src="img/icon.png" class="logo-lol">
     <a href="./index.html"><img src="https://i.ibb.co/RQ4cQR7/League-of-Legends.png" alt="" class="title-lol"></a>
     <ul class="menu-bar">
       <li class="menu-option"><a >ORDENA</a>
         <fieldset id="champs-sort" class="champs-sort">
           <div id="lol-sort-option" class="lol-sort-option">
             <label value="0">Ordenar</label>
-            <!--<input type="button" value="VER CAMPEONES!!" id="show-btn">-->
           </div>
           <select id="lol-sort" name="orden" class="lol-sort">
             <option value="00">A-Z</option>
@@ -42,14 +43,13 @@
         </div>
         <div class="filter col-5 col-sm-4 col-md-4 col-lg-4 col-xl-4">
           <select id="lol-filter" name="filt" class="lol-filter">
-            <option value="" selected>Filter by Rol</option>
+            <option value="" selected>Filtra por Rol</option>
             <option value="Assassin">Assassin</option>
-            <option value="Fighter">Defensa</option>
-            <option value="Fighting">Fighter</option>
+            <option value="Fighter">Fighter</option>
             <option value="Mage">Mage</option>
             <option value="Marksman">Marksman</option>
-            <option value="Tank">Tank</option>
             <option value="Support">Support</option>
+            <option value="Tank">Tank</option>   
           </select>
         </div>  
       </fieldset>
@@ -81,7 +81,6 @@
       </label>
     </fieldset>-->
   </form>  
-  <div id="root"></div>
   <footer>
     <div class="container-footer"> 
       <a href="https://lan.leagueoflegends.com/es/tag/facebook" target="blanck"><img class = "iconf" src="./img/facebook.png" alt=""></a>
@@ -89,13 +88,12 @@
       <a href="https://www.youtube.com/channel/UC2t5bjwHdUX4vM2g8TRDq5g" target="blanck"><img class="iconf" src="./img/youtube.png" alt=""></a>
     </div>
   </footer>
-  </div>
-  <script src="./data/lol/lol.js"></script>
-  <script src="data.js"></script>
-  <script src="main.js"></script>
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <div id="root"></div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="./data/lol/lol.js"></script>
+  <script src="data.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
