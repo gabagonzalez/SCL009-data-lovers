@@ -8,3 +8,14 @@
 };
 
 window.example = example;*/
+
+//FUNCIÓN FILTRADO
+
+const filterLol = (lolValues,rolFilter) => { 
+  let result = lolValues.filter(element => {
+    return element.tags.includes(rolFilter); 
+  }) 
+  return result;
+}
+
+window.filterLol = filterLol;

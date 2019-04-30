@@ -43,3 +43,27 @@ container.innerHTML += `
 window.onload = showLol(lolValues);
 //onload: método window que asegura que todo esté cargado para que se pueda llamar a esta función
 
+
+//DOM FUNCIÓN FILTRAR
+document.getElementById("lol-filter").addEventListener("change",() => {
+  let rolFilter = document.getElementById("lol-filter").value; 
+  let lastResult = window.filterLol(lolValues,rolFilter); 
+  container.innerHTML ="";
+  lastResult.forEach(element => {
+      container.innerHTML += `
+      <div class='col'>
+      <div id="flip-container">
+       <div class='cards'>
+        <img class='front' src="${element.img}"/>
+        <div class='back'>
+          <li class='name'> ${element.name}</li>
+        </div>
+      </div>
+      </div> 
+      </div>
+     `    
+  });
+  });
+  
+
+
