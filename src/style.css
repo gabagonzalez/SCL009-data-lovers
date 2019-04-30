@@ -1,17 +1,32 @@
+*{margin:0; padding:0;}
 
-.title-lol{
+.brand-lol{
     display: block;
     margin: auto;
-    width: 30%;
+    width: 70%;
     
 }
-
 .logo-lol{
+    position: normal;
+    display: block;
     justify-content: left;
-    position: fixed;
-    display: flex;
-    width: 10%;
-    padding-bottom: 0;
+    width: 8%;
+    padding-bottom: 0px;
+    line-height:200px;
+}
+.body-champs{
+
+    /*background-image: url("img/fondo2.jpg");*/
+    background-image: url("https://i.ibb.co/1vGFvWJ/fondo4.jpg");
+    /*background-image: url("img/fondo5.jpg");*/
+    /*background-image: url("img/fondo6.jpg");*/
+    /*background-image: url("img/fondo7.jpg");*/
+    /*background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqDranG2o_3Lh82X1a0X2PDfc0HYsIwNaHLp5KDTmSmhGTllBC);*/
+    /*https://goodgamegigi.files.wordpress.com/2014/09/league-of-legends-wallpaper-1920x1080-draven-hd-background-9.jpg*/
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
 }
 .header{
     width: 100%;
@@ -22,83 +37,239 @@
     left: 0;
     right: 0;
     z-index: 1000;
-    background:rgb(53, 60, 85);
+    background:rgb(129, 141, 16);
     display: flex;
-    
 }
-.body-champs{
+.wrapper{
+    width: 90%;
+    max-width:1000px;
+    margin:auto;
+    overflow: hidden;
+}
+header.logo{
+    line-height:200px;
+    float:center;
+}
+header.nav{
+    float: right;
+    line-height:200px;
+}
+header nav a{
+    display: inline-block;
+    color:fff;
+    text-decoration:none;
+    padding:10px 20px;
+    line-height:normal;
+    font-size:20px;
+    font-weight: bold;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+}
+header nav a:hover {
+    background:#24c3ce;
+    border-radius:50px;
+}
+@media screen and (max-width:950px){
+    header .logo,
+    header nav {
+        width:100%;
+        text-align:center;
+        line-height:100px;
+    }
+} 
+/* Barra opciones*/
+.menu-bar{
+   display: flex;
+   flex-wrap: nowrap;
+   margin: auto;
+   padding: 0%;
+   background-color: #5f7f91;
+   list-style-type: none;
+   overflow: hidden;
+   font-family: aGaramondPro;
+}
 
-    /*background-image: url("img/fondo2.jpg");
-    background-image: url("img/fondo4.jpg");
-    background-image: url("img/fondo5.jpg");*/
-    background-image: url("img/fondo6.jpg");
-   /*background-image: url("img/fondo7.jpg");*/
-    /*background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqDranG2o_3Lh82X1a0X2PDfc0HYsIwNaHLp5KDTmSmhGTllBC);*/
-    /*https://goodgamegigi.files.wordpress.com/2014/09/league-of-legends-wallpaper-1920x1080-draven-hd-background-9.jpg*/
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    text-align: center;
+.menu-bar li{
+   width: 1000px;
 }
+
+.menu-bar a{
+   display: block;
+
+   color: white;
+   font-size: 25px;
+   text-decoration: none;
+   text-align: center; 
+   padding: 10px;  
+}
+
+.menu-bar a:hover:not(.active) {
+   background-color: #162228;
+}
+
+/*Ordenar, Filtrar y Buscar */
 .search-bar{
     border: none;
     border-radius: 5px;
     background-color: rgba(217, 217, 219,0.8);
     padding: 8px;
     width: 90%;
-    margin:root
+    margin: 20px auto auto auto;
 }
+
+.champs-sort, .champs-search, .champs-filter{
+    padding: 2px;
+    justify-content: center;
+    border: none
+}
+
+.champs-sort label{
+    font-family: 'ZCOOL KuaiLe';
+    font-size: 15px;
+}
+.lol-sort{
+    border: 2px solid #896331;
+    font-family: 'ZCOOL KuaiLe';
+    font-weight: bold;
+    padding: 2px;
+    background-color: #937341;
+}
+.lol-sort:hover{
+    background-color: white;
+}
+.lol-sort option{
+    font-weight: bold;
+}
+.lol-filter {
+    border: 2px solid #896331;
+    font-family: 'ZCOOL KuaiLe';
+    font-weight: bold;
+    padding: 2px;
+    background-color: #937341;
+}
+.lol-filter:hover{
+    background-color: white;
+}
+.lol-filter option{
+    font-weight: bold;
+}
+.search-for-champion{
+    width:85%;
+    border: 2px solid #896331;
+    border-radius: 5px;
+    outline:none;
+    resize: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'ZCOOL KuaiLe';
+    padding: 5px
+
+}
+.search-btn{
+    background-color: #937341;
+    border: 2px outset #896331;
+    font-family: 'ZCOOL KuaiLe';
+    font-size: 25px;
+    outline: none;
+    transition-duration:0.5s;
+    width: 40px;
+    height: 34px;
+    overflow: hidden;
+}
+.search-btn:hover{
+    transition: 0.3s ease;
+    font-weight: bold;
+    background-color: #A68747;
+    border: 2px outset #937341;
+}
+.search-btn:active{
+    box-shadow: 0 1px #101A1C;
+    transform: translateY(1px);
+}
+.checkbox-inline{
+    display: inline-flex;
+    margin: 5px;
+    font-family: 'ZCOOL KuaiLe';
+    font-weight: bold;
+}
+
+/*Tarjetas HU1 Mostrar data*/
 #root{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: Wrap;
     flex-direction: row;
     justify-content: center;
     list-style: none;
     justify-content: space-between;
     margin-top: 25px;
+    padding: 10px;
     background: rgb(12, 12, 12, 0.9);
     outline-style: ridge;
     outline-color: #ffde44;
     border: #f2bc00 solid 1px;
-    
 }
-
 #flip-container{
- -webkit-perspective: 1000px;
-  perspective: 1000px;
-  padding: 50px;
-  position: relative;
-  margin: 10px auto;
-  /*width: 100px;*/
+    -webkit-perspective: 1000px;
+    color: #896331;
+    border: 3px solid #937341;
+    border-radius: 4%;
+    font-family: 'ZCOOL KuaiLe';
+    overflow: hidden;
+    perspective: 1000px;
+    padding: 20px;
+    position: relative;
+    margin: 5px auto;
+    width: 150px;
+    height: 200px;
+    float: left;
+    outline:none;
+    word-wrap: break-word;
+    text-decoration: none;
+
 }
 .cards {
     position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: #07090a;
     transition: 0.6s;
     transform-style: preserve-3d;
     transform-origin: 100% 25px;
-    /*margin: 1px;*/
-  }
+    margin: autox;
+}
 .cards:hover, .cards.flip{
-    transform: rotateX(180deg);
-  }
+    transform: rotateX(50deg);
+    background-color: #07090a;
+    border: 3px solid rgb(20, 19, 20);
+    opacity: 1;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.card:active{
+    transform: translateY(2px);
+}
+.card img{
+    display: flex;
+    align-content: flex-end;
+}
 .front, .back{
     position: absolute;
+    width: 100%;
+    height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     text-align: center;
   }
 .front{
     transform: rotateX(0deg);
-    z-index: 1;
-    background-color: #e93e29;
-    color: #FFF;
+    z-index: 2;
+    background-color: #4f6480;
+    color: rgb(54, 47, 47);
     font: 1em/1.8em Arial;
     display: flex;
     align-items: center;
     justify-content: center;
-    /*margin: 1em;
-    margin-top: 1em;*/
-    
   }
 .back{
     transform: rotateX(180deg);
@@ -110,18 +281,128 @@
       #dedede 20px
     );
 }
-
-section{
-    margin: auto;
-}
-footer{
-    width: 100%;
-    background:rgb(0, 0, 0);
-    line-height: 5px;
+/* Modal
+.modal-window {
     position: fixed;
+    background-color: rgba(255, 255, 255, 0.25);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.modal-window:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal-close {
+    color: white;
+    line-height: 25px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 30px;
+    text-decoration: none;
+}
+
+.modal-close:hover {
+    color:#896331;
+    font-weight: bold;
+  }
+
+.modal-content{
+    font-family: 'ZCOOL KuaiLe';
+    width: 45%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    
+}
+
+/* Contenido
+.modal-info{
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    width: 55%;
+    height: 90%;
+    color: black;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    border: 3px inset #896331;
+    border-radius: 1%;
+    overflow: auto;
+}
+
+.modal-info::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: silver;
+}
+
+.modal-info::-webkit-scrollbar
+{
+    width: 5px;
+    height: 5px;
+	background-color: gray;
+}
+
+.modal-info::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #896331;
+}
+
+.modal-info img{
+    width: 15%;
+    padding-top: 15px;
+    
+}
+
+.modal-info h1{
+    margin: 0 auto;
+    font-size: 40px;
+}
+
+.modal-info h2{
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+.modal-info p{
+    font-family: aGaramondPro;
+    font-weight: bold;
+    color: black;
+}
+
+
+.modal-img{
+    background-position: center;
+    width: 100%;
+    height: auto;
+}*/
+.footer{
+    width: 100%;
+    height: 100%;
+    background:rgb(0, 0, 0);
+    line-height: 1px;
+    position: normal;
     bottom: 0;
 }
-container-footer{
+.container-footer{
     width: 100%;
-    max-width: 2300px;    
+    max-width: 1200px;    
 }
