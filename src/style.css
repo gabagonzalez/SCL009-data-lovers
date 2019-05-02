@@ -14,6 +14,11 @@
     padding-bottom: 0px;
     line-height:200px;
 }
+h4{
+  text-align:center;
+  font-family: 'ZCOOL KuaiLe';
+  color:rgb(160, 173, 41);
+}
 .body-champs{
 
     /*background-image: url("img/fondo2.jpg");*/
@@ -169,19 +174,20 @@ header nav a:hover {
 .search-btn{
     background-color: #937341;
     border: 2px outset #896331;
+    font-size: 15px;
     font-family: 'ZCOOL KuaiLe';
-    font-size: 25px;
+    font-weight: bold;
     outline: none;
     transition-duration:0.5s;
-    width: 40px;
-    height: 34px;
+    width: 80px;
+    height: 50px;
     overflow: hidden;
 }
 .search-btn:hover{
     transition: 0.3s ease;
     font-weight: bold;
     background-color: #A68747;
-    border: 2px outset #937341;
+    border: 5px outset #937341;
 }
 .search-btn:active{
     box-shadow: 0 1px #101A1C;

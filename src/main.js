@@ -1,23 +1,25 @@
 /* Manejo del DOM */
-//opción de recorrer la data con for
 
 const lolValues = Object.values(window.LOL.data); //const para acceder a la data
 //const lolKeys = Object.keys(window.LOL.data);
-
 const container = document.getElementById("root");//para visualizar nuestras card en el div root
 
+//HISTORIA DE USUARIO 1-PARA MOSTRAR DATA
+//Opción de recorrer la data con for
 let showLol = (lolValues) => {
 for(let i=0; i < lolValues.length; i++){   
 container.innerHTML += `
-    <div id="flip-container">
-     <div class='cards'>
-      <img class='front' src="${lolValues[i].img}"/>
-      <div class='back'>
-        <li class='name'> ${lolValues[i].id}</li>
-      </div>
+<div id="flip-container">
+  <div class='cards'>
+    <li class='name'> ${lolValues[i].name}</li>
+    <img class='front' src="${lolValues[i].img}"/>
+    <hr>
+    <div class='back'>
+      <li class='title'> ${lolValues[i].difficulty}</li>
     </div>
-    </div> 
-    `   
+  </div>
+</div> 
+  `  
 }
 }
   /*con foreach
@@ -43,7 +45,29 @@ container.innerHTML += `
 window.onload = showLol(lolValues);
 //onload: método window que asegura que todo esté cargado para que se pueda llamar a esta función
 
-
+//HISTORIA DE USUARIO 2-PARA FUNCIÓN ORDENAR DATA
+//DOM FUNCIÓN ORDENAR
+document.getElementById('lol-sort').addEventListener('change', () => {
+  let champsOrder = document.getElementById('lol-sort').value;
+  let newResult = window.orderLol(lolValues,champsOrder);
+  container.innerHTML ="";
+  newResult.forEach(element => {
+    container.innerHTML += ` 
+      <div id="flip-container">
+        <div class='cards'>
+          <li class='name'> ${element.name}</li>
+          <img class='front' src="${element.img}"/>
+          <hr>
+          <div class='back'>
+            <li class='title'> ${element.info}</li>
+          </div>
+        </div>
+      </div> 
+        ` 
+  });
+  });
+  
+//HISTORIA DE USUARIO 3-PARA FUNCIÓN FILTRAR DATA
 //DOM FUNCIÓN FILTRAR
 document.getElementById("lol-filter").addEventListener("change",() => {
   let rolFilter = document.getElementById("lol-filter").value; 
@@ -65,5 +89,3 @@ document.getElementById("lol-filter").addEventListener("change",() => {
   });
   });
   
-
-

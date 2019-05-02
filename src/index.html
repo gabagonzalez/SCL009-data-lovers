@@ -11,53 +11,36 @@
 </head>
 
 <body class="body-champs">
-  <div class="container">
-    <div class= wrapper>
+  <div class="container col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <div class="wrapper col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
       <a href="./index.html"><img src="https://i.ibb.co/BTVZKQ6/champions-Logo-OK.png" alt="" class="brand-lol"></a>
-      <img src="https://am-a.akamaihd.net/image?f=https://news-a.akamaihd.net/public/images/articles/2016/december/hextech/divider.png">
+      <img src="https://i.ibb.co/w7RjSTN/barra.png">
     <div class="search-bar">
       <h6> EL CAMPEÓN IDEAL PARA CADA INVOCADOR!! ... 
       <br> CONÓCELOS, ENCUENTRA EL TUYO  ;) </h6>
-      <!--<fieldset id="champs-filter" class="champs-filter">
-        <label class="checkbox-inline">
-          <input class="filter-champ" type="checkbox" id="assassin" value="Assassin">Assassin
-        </label>
-        <label class="checkbox-inline">
-          <input class="filter-champ" type="checkbox" id="fighter" value="Fighter">Fighter
-        </label>
-        <label class="checkbox-inline">
-          <input class="filter-champ" type="checkbox" id="mage" value="Mage">Mage
-        </label>
-        <label class="checkbox-inline">
-          <input class="filter-champ" type="checkbox" id="marksman" value="Marksman">Marksman
-        </label>
-        <label class="checkbox-inline">
-          <input class="filter-champ" type="checkbox" id="support" value="Support">Support
-        </label>
-        <label class="checkbox-inline">
-          <input class="filter-champ" type="checkbox" id="tank" value="Tank">Tank
-        </label>
-      </fieldset>-->
     </div>
-    <nav class="navbar navbar bg-dark">
+    <nav class="navbar navbar bg-dark col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
       <ul class="menu-bar">
-        <li class="menu-option"><a >Ordena</a>
+        <li class="menu-option">
           <fieldset id="champs-sort" class="champs-sort">
             <div id="lol-sort-option" class="lol-sort-option"></div>
             <select id="lol-sort" name="orden" class="lol-sort">
+              <option value="Selected">ORDENA</option>
               <option value="00">A-Z</option>
               <option value="01">Z-A</option>
-              <!--<option value="02">DIFICULTAD ASC</option>
-              <option value="03">DIFICULTAD DESC</option>-->
+              <option value="02">DIFICULTAD </option>
             </select>
           </fieldset>
         </li>
-        <li label value="0"><a >Filtra</a>
+        <li>
+          <button id="init-btn" class="search-btn" type="button" href="./index.html">INICIO</button>
+        </li>
+        <li label value="0">
           <fieldset id="champs-filter" class="champs-filter">
             <div id="lol-filter-option" class="lol-filter-option"></div>
-            <div class="filter col-5 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+            <div class="filter">
               <select id="lol-filter" name="filt" class="lol-filter">
-                <option value="" selected>SELECCIONA</option>
+                <option value="Selected">FILTRA</option>
                 <option value="Assassin">Assassin</option>
                 <option value="Fighter">Fighter</option>
                 <option value="Mage">Mage</option>
@@ -68,12 +51,12 @@
             </div>  
           </fieldset>
         </li>
-        <li class="menu-option"><a >Busca</a>
+        <!--<li class="menu-option"><a >Busca</a>
           <fieldset id="champs-search" class="chams-search">
             <input type="text" id="search-for-champion" class="search-for-champion" name="q" placeholder="Buscar Campeones" autocomplete="on" value="">
             <button id="search-btn" class="search-btn" type="button"><img src="https://i.ibb.co/6mhsKtc/lupita.png" alt=""></button>
           </fieldset>
-        </li>
+        </li>-->
       </ul>
     </nav>
     </div>
@@ -82,8 +65,8 @@
   </div>
   
   <footer>
-    <div class="container-footer">
-      <a>League of Legends, más información en redes sociales</a> 
+    <div class="container-footer col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6"">
+      <a><h4>League of Legends, más información en redes sociales</h4></a> 
       <a href="https://lan.leagueoflegends.com/es/tag/facebook" target="blanck"><img class = "iconf" src="https://cdn.icon-icons.com/icons2/1269/PNG/128/1497553311-103_84832.png" alt=""></a>
       <a href="https://www.instagram.com/leagueoflegends/?hl=es-la" target="blanck"><img class="iconf" src="https://cdn.icon-icons.com/icons2/1269/PNG/128/1497553304-104_84834.png" alt=""></a>
       <a href="https://www.youtube.com/channel/UC2t5bjwHdUX4vM2g8TRDq5g" target="blanck"><img class="iconf" src="https://cdn.icon-icons.com/icons2/1269/PNG/128/1497553316-102_84842.png" alt=""></a>

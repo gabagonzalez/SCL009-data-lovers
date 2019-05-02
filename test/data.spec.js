@@ -14,7 +14,7 @@ describe('example', () => {
   });
 })*/
 
-//TEST PARA LA FUNCIÓN FILTRADO
+//DATA PARA LA FUNCIÓN
 const lolValues = [
 
   {
@@ -30,6 +30,8 @@ const lolValues = [
     tags: "Mage",
   }
 ]
+
+//TEST PARA LA FUNCIÓN FILTRADO
 
 describe('función filterLol', () => {//a quien voy a testear
   
