@@ -113,94 +113,20 @@ header nav a:hover {
    background-color: #162228;
 }
 
-/*Ordenar, Filtrar y Buscar */
-.search-bar{
-    border: none;
-    border-radius: 5px;
-    background-color: rgba(217, 217, 219,0.8);
-    padding: 8px;
-    width: 90%;
-    margin: 20px auto auto auto;
+.footer{
+    width: 100%;
+    height: 100%;
+    background:rgb(0, 0, 0);
+    line-height: 1px;
+    position: normal;
+    bottom: 0;
+}
+.container-footer{
+    width: 100%;
+    max-width: 1200px;    
 }
 
-.champs-sort, .champs-search, .champs-filter{
-    padding: 2px;
-    justify-content: center;
-    border: none
-}
-
-.champs-sort label{
-    font-family: 'ZCOOL KuaiLe';
-    font-size: 15px;
-}
-.lol-sort{
-    border: 2px solid #896331;
-    font-family: 'ZCOOL KuaiLe';
-    font-weight: bold;
-    padding: 2px;
-    background-color: #937341;
-}
-.lol-sort:hover{
-    background-color: white;
-}
-.lol-sort option{
-    font-weight: bold;
-}
-.lol-filter {
-    border: 2px solid #896331;
-    font-family: 'ZCOOL KuaiLe';
-    font-weight: bold;
-    padding: 2px;
-    background-color: #937341;
-}
-.lol-filter:hover{
-    background-color: white;
-}
-.lol-filter option{
-    font-weight: bold;
-}
-.search-for-champion{
-    width:85%;
-    border: 2px solid #896331;
-    border-radius: 5px;
-    outline:none;
-    resize: none;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'ZCOOL KuaiLe';
-    padding: 5px
-
-}
-.search-btn{
-    background-color: #937341;
-    border: 2px outset #896331;
-    font-size: 15px;
-    font-family: 'ZCOOL KuaiLe';
-    font-weight: bold;
-    outline: none;
-    transition-duration:0.5s;
-    width: 80px;
-    height: 50px;
-    overflow: hidden;
-}
-.search-btn:hover{
-    transition: 0.3s ease;
-    font-weight: bold;
-    background-color: #A68747;
-    border: 5px outset #937341;
-}
-.search-btn:active{
-    box-shadow: 0 1px #101A1C;
-    transform: translateY(1px);
-}
-.checkbox-inline{
-    display: inline-flex;
-    margin: 5px;
-    font-family: 'ZCOOL KuaiLe';
-    font-weight: bold;
-}
-
-/*Tarjetas HU1 Mostrar data*/
+/*HISTORIA DE USUARIO 1- CARDS PARA MOSTRAR DATA*/
 #root{
     display: flex;
     flex-wrap: Wrap;
@@ -287,6 +213,99 @@ header nav a:hover {
       #dedede 20px
     );
 }
+
+
+/*HISTORIA DE USUARIO 2 Y 3 - SELECT PARA ORDENAR Y FILTRAR DATA*/
+/*Ordenar, Filtrar y Buscar */
+.search-bar{
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(217, 217, 219,0.8);
+    padding: 8px;
+    width: 90%;
+    margin: 20px auto auto auto;
+}
+
+.champs-sort, .champs-search, .champs-filter{
+    padding: 2px;
+    justify-content: center;
+    border: none
+}
+
+.champs-sort label{
+    font-family: 'ZCOOL KuaiLe';
+    font-size: 15px;
+}
+.lol-sort{
+    border: 2px solid #896331;
+    font-family: 'ZCOOL KuaiLe';
+    font-weight: bold;
+    padding: 2px;
+    background-color: #937341;
+}
+.lol-sort:hover{
+    background-color: white;
+}
+.lol-sort option{
+    font-weight: bold;
+}
+.lol-filter {
+    border: 2px solid #896331;
+    font-family: 'ZCOOL KuaiLe';
+    font-weight: bold;
+    padding: 2px;
+    background-color: #937341;
+}
+.lol-filter:hover{
+    background-color: white;
+}
+.lol-filter option{
+    font-weight: bold;
+}
+/*HACKING EDITION */
+/*
+.search-for-champion{
+    width:85%;
+    border: 2px solid #896331;
+    border-radius: 5px;
+    outline:none;
+    resize: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'ZCOOL KuaiLe';
+    padding: 5px
+
+}
+.search-btn{
+    background-color: #937341;
+    border: 2px outset #896331;
+    font-size: 15px;
+    font-family: 'ZCOOL KuaiLe';
+    font-weight: bold;
+    outline: none;
+    transition-duration:0.5s;
+    width: 80px;
+    height: 50px;
+    overflow: hidden;
+}
+.search-btn:hover{
+    transition: 0.3s ease;
+    font-weight: bold;
+    background-color: #A68747;
+    border: 5px outset #937341;
+}
+.search-btn:active{
+    box-shadow: 0 1px #101A1C;
+    transform: translateY(1px);
+}
+.checkbox-inline{
+    display: inline-flex;
+    margin: 5px;
+    font-family: 'ZCOOL KuaiLe';
+    font-weight: bold;
+}*/
+
+/*HACKING EDITION */
 /* Modal
 .modal-window {
     position: fixed;
@@ -400,15 +419,5 @@ header nav a:hover {
     width: 100%;
     height: auto;
 }*/
-.footer{
-    width: 100%;
-    height: 100%;
-    background:rgb(0, 0, 0);
-    line-height: 1px;
-    position: normal;
-    bottom: 0;
-}
-.container-footer{
-    width: 100%;
-    max-width: 1200px;    
-}
+
+

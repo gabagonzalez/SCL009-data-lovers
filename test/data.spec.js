@@ -1,8 +1,8 @@
-/*global.window = global;
+global.window = global;
 global.assert = require('chai').assert;
 require('../src/data');
 require('./data.spec.js');
-
+/*
 describe('example', () => {
   
   it('debería ser una función', () => {
@@ -14,7 +14,7 @@ describe('example', () => {
   });
 })*/
 
-//DATA PARA LA FUNCIÓN
+//MINIDATA PARA LAS FUNCIONES
 const lolValues = [
 
   {
@@ -31,7 +31,22 @@ const lolValues = [
   }
 ]
 
-//TEST PARA LA FUNCIÓN FILTRADO
+//HISTORIA DE USUARIO 2-TEST PARA LA FUNCIÓN ORDENAR
+
+describe('función orderLol', () => {
+  
+  it('debería ser una función', () => {
+    assert.equal(typeof orderLol, 'function');
+  });
+
+  it('debería retornar ["Aatrox","Ashe","Zyra"] para champsOrder "00",orden de "A-Z"', () => {
+    assert.deepEqual(window.orderLol(lolValues,"00"), [{name: "Aatrox", tags:"Fighter"},{name: "Ashe", tags:"Marksman"},{name: "Zyra", tags:"Mage"}]);
+    
+  }); //deepequal debemos pasarle todos los parametros
+ 
+})
+
+//HISTORIA DE USUARIO 3-TEST PARA LA FUNCIÓN FILTRADO
 
 describe('función filterLol', () => {//a quien voy a testear
   
