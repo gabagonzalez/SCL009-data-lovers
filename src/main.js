@@ -3,6 +3,7 @@
 const lolValues = Object.values(window.LOL.data); //const para acceder a la data
 //const lolKeys = Object.keys(window.LOL.data);
 const container = document.getElementById("root");//para visualizar nuestras card en el div root
+const calculo = document.getElementById('calculation'); //div para mostrar calculo
 
 //HISTORIA DE USUARIO 1-PARA MOSTRAR DATA
 //Opción de recorrer la data con for
@@ -88,4 +89,19 @@ document.getElementById("lol-filter").addEventListener("change",() => {
      `    
   });
   });
+
+    //CALCULO
+  
+
+    document.getElementById("lol-filter").addEventListener("change",() => {
+      let rolFilter = document.getElementById("lol-filter").value; 
+      let calcResult = window.computeStats(lolValues,rolFilter);
+  
+      calculo.innerHTML ="";
+      calculo.innerHTML +=  `
+        <div>
+        <p> El ${calcResult} % de los campeones, juegan este Rol </p>
+            </div> 
+            `    
+    });
   
