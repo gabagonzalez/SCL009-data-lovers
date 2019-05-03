@@ -51,3 +51,15 @@ const filterLol = (lolValues,rolFilter) => {
 }
 
 window.filterLol = filterLol;
+
+//FUNCIÓN CALCULAR
+
+const computeStats = (lolValues,rolFilter) => {
+  let calculateResult = filterLol(lolValues, rolFilter).length;
+
+  return Math.round((calculateResult/134)*100);
+  //return calculateResult me entrega la cantidad de jugadores
+}
+//mathround redondea al entero más cercano
+//length: que mi funcion calculate me devuleva el numero de elmentos que contiene el filtro que eligió el usuario
+window.computeStats = computeStats;

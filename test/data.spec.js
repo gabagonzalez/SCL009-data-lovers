@@ -60,3 +60,12 @@ describe('función filterLol', () => {//a quien voy a testear
   }); //deepequal necesita recibir lo q debes evaluar y lo que retorna, debemos pasarle todos los parametros
  
 })
+
+//TEST FUNCION CALCULAR
+
+describe('función computeStats', () => {
+
+   it('debería ser una función', () => {
+     assert.equal(typeof computeStats, 'function');
+   });
+  })

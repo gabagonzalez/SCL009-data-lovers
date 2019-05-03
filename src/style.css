@@ -421,3 +421,13 @@ header nav a:hover {
 }*/
 
 
+/* DIV CALCULO*/
+
+#calculation{
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    background-color: white;
+    color:black;
+
+}
