@@ -12,32 +12,37 @@
 
 <body class="body-champs">
   <div class="container col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-    <header> 
+    <header col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12>
+      <a><img src="https://i.ibb.co/Zff3JVW/lifebartext6.png" class="lifebar-lol"></a> 
       <div class="wrapper col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-        <a href="./index.html"><img src="https://i.ibb.co/BTVZKQ6/champions-Logo-OK.png" alt="" class="brand-lol"></a>
-        <img src="https://i.ibb.co/w7RjSTN/barra.png">
-        <div class="search-bar">
-          <h6> EL CAMPEÓN IDEAL PARA CADA INVOCADOR!! ... 
-          <br> CONÓCELOS, ENCUENTRA EL TUYO  ;) </h6>
-        </div>
-        <nav class="navbar navbar bg-dark col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-          <ul class="menu-bar">
-            <li class="menu-option">
+        <!--<a href="./index.html"><img src="https://i.ibb.co/BTVZKQ6/champions-Logo-OK.png" alt="" class="brand-lol"></a>-->
+          <!--<div id="buscar" class="search-bar">
+            <a href="./index.html"><img src="./img/lifebar2.png" alt="" class ="brand-lol"></a>
+            <div class="menu-option">
+              <fieldset id="champs-search" class="champs-search">
+                <input type="text" id="search-for-champion" class="search-for-champion" name="q" placeholder="Buscar Campeones" autocomplete="on" value="">
+                <button id="search-btn" class="search-btn" type="button"><img src="https://i.ibb.co/6mhsKtc/lupita.png" alt=""></button>
+              </fieldset>
+            </div>
+          </div>-->
+          <nav class="navbar col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"></nav>
+          <ul id ="menú" class="menu-bar col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <li id="Order" class="menu-option">
               <fieldset id="champs-sort" class="champs-sort">
                 <div id="lol-sort-option" class="lol-sort-option"></div>
                 <select id="lol-sort" name="orden" class="lol-sort">
-                  <option value="Selected">ORDENA</option>
-                  <option value="00">A-Z</option>
-                  <option value="01">Z-A</option>
+                  <option value="Selected" href="./index.html">ORDENA</option>
                   <option value="02">DIFICULTAD </option>
+                  <option value="01">Z-A</option>
+                  <option value="00">A-Z</option>
                 </select>
               </fieldset>
             </li>
-            <li>
+            <div id ="Home">
               <a href="./index.html" target="blanck"><img class = "iconf" src="https://i.ibb.co/xXv1mCz/boton2.png" alt=""></a>
               <!--<button id="init-btn" class="search-btn" type="button" href="./index.html">INICIO</button>-->
-            </li>
-            <li label value="0">
+            </div>
+            <li id="Filter" label value="0">
               <fieldset id="champs-filter" class="champs-filter">
                 <div id="lol-filter-option" class="lol-filter-option"></div>
                 <div class="filter">
@@ -53,16 +58,16 @@
                 </div>  
               </fieldset>
             </li>
-              <!--<li class="menu-option"><a >Busca</a>
-              <fieldset id="champs-search" class="chams-search">
-              <input type="text" id="search-for-champion" class="search-for-champion" name="q" placeholder="Buscar Campeones" autocomplete="on" value="">
-              <button id="search-btn" class="search-btn" type="button"><img src="https://i.ibb.co/6mhsKtc/lupita.png" alt=""></button>
-             </fieldset>
-              </li>-->
           </ul>
+          <img src="https://i.ibb.co/w7RjSTN/barra.png" class = "brand-lol">
         </nav>
       </div>
     </header>    
+  </section>
+  <!--DIV QUE MUESTRA EL CALCULO-->
+    <section>
+      <div id="calculation"></div>
+    </section>
     <div id="root"></div>
   </div>
 

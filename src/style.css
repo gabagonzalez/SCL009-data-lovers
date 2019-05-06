@@ -1,38 +1,36 @@
 *{margin:0; padding:0;}
 
+/* estilo logo*/
 .brand-lol{
     display: block;
+    justify-content: center;
     margin: auto;
-    width: 70%;
+    width: 60%;
     
 }
-.logo-lol{
-    position: normal;
-    display: block;
-    justify-content: left;
-    width: 8%;
-    padding-bottom: 0px;
-    line-height:200px;
-}
+
+/*estilo texto*/
 h4{
   text-align:center;
   font-family: 'ZCOOL KuaiLe';
   color:rgb(160, 173, 41);
 }
-.body-champs{
 
-    /*background-image: url("img/fondo2.jpg");*/
+/* div generico*/
+.div {
+   text-align:center;
+}
+
+/*estilo fondo body*/
+.body-champs{
     background-image: url("https://i.ibb.co/1vGFvWJ/fondo4.jpg");
-    /*background-image: url("img/fondo5.jpg");*/
-    /*background-image: url("img/fondo6.jpg");*/
-    /*background-image: url("img/fondo7.jpg");*/
-    /*background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqDranG2o_3Lh82X1a0X2PDfc0HYsIwNaHLp5KDTmSmhGTllBC);*/
-    /*https://goodgamegigi.files.wordpress.com/2014/09/league-of-legends-wallpaper-1920x1080-draven-hd-background-9.jpg*/
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
+    padding: 20px;
 }
+
 .header{
     width: 100%;
     overflow: hidden;
@@ -45,23 +43,23 @@ h4{
     background:rgb(129, 141, 16);
     display: flex;
 }
+
 .wrapper{
-    width: 90%;
+    width:100%;
     max-width:1000px;
+    padding:10px 20px;
     margin:auto;
     overflow: hidden;
 }
-header.logo{
-    line-height:200px;
-    float:center;
-}
-header.nav{
+
+.header.nav{
     float: right;
     line-height:200px;
 }
-header nav a{
+
+.header nav a{
     display: inline-block;
-    color:fff;
+    color:#fff;
     text-decoration:none;
     padding:10px 20px;
     line-height:normal;
@@ -71,60 +69,21 @@ header nav a{
     -o-transition:all 500ms ease;
     transition:all 500ms ease;
 }
+
 header nav a:hover {
     background:#24c3ce;
     border-radius:50px;
 }
+
+/*pensado en el responsive*/
 @media screen and (max-width:950px){
-    header .logo,
+    /*header .logo,*/
     header nav {
         width:100%;
         text-align:center;
         line-height:100px;
     }
 } 
-/* Barra opciones*/
-.menu-bar{
-   display: flex;
-   flex-wrap: nowrap;
-   margin: auto;
-   padding: 0%;
-   background-color: #5f7f91;
-   list-style-type: none;
-   overflow: hidden;
-   font-family: aGaramondPro;
-}
-
-.menu-bar li{
-   width: 1000px;
-}
-
-.menu-bar a{
-   display: block;
-
-   color: white;
-   font-size: 25px;
-   text-decoration: none;
-   text-align: center; 
-   padding: 10px;  
-}
-
-.menu-bar a:hover:not(.active) {
-   background-color: #162228;
-}
-
-.footer{
-    width: 100%;
-    height: 100%;
-    background:rgb(0, 0, 0);
-    line-height: 1px;
-    position: normal;
-    bottom: 0;
-}
-.container-footer{
-    width: 100%;
-    max-width: 1200px;    
-}
 
 /*HISTORIA DE USUARIO 1- CARDS PARA MOSTRAR DATA*/
 #root{
@@ -141,6 +100,8 @@ header nav a:hover {
     outline-color: #ffde44;
     border: #f2bc00 solid 1px;
 }
+
+/*estilo a las cards, movimiento, imagen, borde*/ 
 #flip-container{
     -webkit-perspective: 1000px;
     color: #896331;
@@ -214,13 +175,53 @@ header nav a:hover {
     );
 }
 
+/*HISTORIA DE USUARIO 2 y 3 - OPCIONES PARA ORDENAR Y FILTRAR DATA*/
+/* estilo a la Div, Barra opciones para Ordenar,Home, Filtrar*/
+.menu-bar{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+    padding: 0%;
+    /*background-image: url("i.ibb.co/Zff3JVW/lifebartext6.png");*/
+    background-color: transparent;
+    list-style-type: none;
+    overflow: hidden;
+    font-family: aGaramondPro;
+    /*width: 2000;
+    max-width:2000px;
+    height: 1500;*/    
+}
+
+.menu-bar li{
+   width: 1000px;
+}
+
+.menu-bar ul{
+    width: 3000px;
+    
+ }
+
+.menu-bar a{
+   display: block;
+   color: white;
+   font-size: 25px;
+   text-decoration: none;
+   text-align: center; 
+   padding: 10px;  
+}
+
+.menu-bar a:hover:not(.active) {
+    background-color: blue;
+}
 
 /*HISTORIA DE USUARIO 2 Y 3 - SELECT PARA ORDENAR Y FILTRAR DATA*/
-/*Ordenar, Filtrar y Buscar */
+/*Ordenar, Filtrar */
 .search-bar{
     border: none;
     border-radius: 5px;
-    background-color: rgba(217, 217, 219,0.8);
+    opacity: 0.0 - 1.0;
+    /*visibility: hidden;*/
+    /*background-color: rgba(217, 217, 219,0.8);*/
     padding: 8px;
     width: 90%;
     margin: 20px auto auto auto;
@@ -244,7 +245,7 @@ header nav a:hover {
     background-color: #937341;
 }
 .lol-sort:hover{
-    background-color: white;
+    background-color: rgb(55, 219, 248);
 }
 .lol-sort option{
     font-weight: bold;
@@ -257,177 +258,52 @@ header nav a:hover {
     background-color: #937341;
 }
 .lol-filter:hover{
-    background-color: white;
+    background-color: rgb(23, 111, 133);
 }
 .lol-filter option{
     font-weight: bold;
 }
-/*HACKING EDITION */
-/*
-.search-for-champion{
-    width:85%;
-    border: 2px solid #896331;
-    border-radius: 5px;
-    outline:none;
-    resize: none;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'ZCOOL KuaiLe';
-    padding: 5px
 
-}
-.search-btn{
-    background-color: #937341;
-    border: 2px outset #896331;
-    font-size: 15px;
-    font-family: 'ZCOOL KuaiLe';
-    font-weight: bold;
-    outline: none;
-    transition-duration:0.5s;
-    width: 80px;
-    height: 50px;
-    overflow: hidden;
-}
-.search-btn:hover{
-    transition: 0.3s ease;
-    font-weight: bold;
-    background-color: #A68747;
-    border: 5px outset #937341;
-}
-.search-btn:active{
-    box-shadow: 0 1px #101A1C;
-    transform: translateY(1px);
-}
-.checkbox-inline{
-    display: inline-flex;
-    margin: 5px;
-    font-family: 'ZCOOL KuaiLe';
-    font-weight: bold;
-}*/
-
-/*HACKING EDITION */
-/* Modal
-.modal-window {
-    position: fixed;
-    background-color: rgba(255, 255, 255, 0.25);
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 999;
-    opacity: 0;
-    pointer-events: none;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-.modal-window:target {
-    opacity: 1;
-    pointer-events: auto;
-}
-
-.modal-close {
-    color: white;
-    line-height: 25px;
-    position: absolute;
-    right: 0;
-    text-align: center;
-    top: 0;
-    width: 30px;
-    text-decoration: none;
-}
-
-.modal-close:hover {
-    color:#896331;
-    font-weight: bold;
-  }
-
-.modal-content{
-    font-family: 'ZCOOL KuaiLe';
-    width: 45%;
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 0;
-    
-}
-
-/* Contenido
-.modal-info{
-    background-color: rgba(255, 255, 255, 0.3);
-    position: absolute;
-    width: 55%;
-    height: 90%;
-    color: black;
-    top: 50%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    border: 3px inset #896331;
-    border-radius: 1%;
-    overflow: auto;
-}
-
-.modal-info::-webkit-scrollbar-track
-{
-	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	border-radius: 10px;
-	background-color: silver;
-}
-
-.modal-info::-webkit-scrollbar
-{
-    width: 5px;
-    height: 5px;
-	background-color: gray;
-}
-
-.modal-info::-webkit-scrollbar-thumb
-{
-	border-radius: 10px;
-	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #896331;
-}
-
-.modal-info img{
-    width: 15%;
-    padding-top: 15px;
-    
-}
-
-.modal-info h1{
-    margin: 0 auto;
-    font-size: 40px;
-}
-
-.modal-info h2{
-    margin: 0 auto;
-    font-size: 25px;
-}
-
-.modal-info p{
-    font-family: aGaramondPro;
-    font-weight: bold;
-    color: black;
-}
-
-
-.modal-img{
-    background-position: center;
-    width: 100%;
-    height: auto;
-}*/
-
-
-/* DIV CALCULO*/
-
+/*HISTORIA DE USUARIO 4 - CALCULO DE LA DATA PARA MOSTRAR AL FILTRAR DATA*/
+/* ESTILO DIV CALCULO*/
 #calculation{
+    display: none;
     width: 200px;
     height: 50px;
     margin: 10px;
-    background-color: white;
+    background-color: #5f7f91;
     color:black;
+    justify-content: center;
 
 }
+/*PARA FINALIZAR Y MÁS INFORMACIÓN AL USUARIO, REDES SOCIALES*/
+/*estilo al pie de pagina,*/
+.footer{
+    width: 100%;
+    height: 100%;
+    background:rgb(0, 0, 0);
+    line-height: 1px;
+    position: normal;
+    bottom: 0;
+    padding: 20px;
+    
+    
+}
+.container-footer{
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;   
+}
+
+/*
+.ir-arriba {
+    display: inline-block;
+    padding: 20px;
+    background:#024959;
+    font-size: 20px;
+    color:#fff;
+    cursor: pointer;
+    position: fixed;
+    bottom:20px;
+    right:20px;
+}*/

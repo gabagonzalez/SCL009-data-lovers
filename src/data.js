@@ -52,6 +52,7 @@ const filterLol = (lolValues,rolFilter) => {
 
 window.filterLol = filterLol;
 
+//HISTORIA DE USUARIO 4-FUNCIÓN PARA SUMAR DATA (SUMAR POR TIPO DE ROL)
 //FUNCIÓN CALCULAR
 
 const computeStats = (lolValues,rolFilter) => {
