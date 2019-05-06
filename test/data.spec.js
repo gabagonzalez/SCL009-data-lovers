@@ -68,4 +68,8 @@ describe('función computeStats', () => {
    it('debería ser una función', () => {
      assert.equal(typeof computeStats, 'function');
    });
+
+   it('debería retornar 1, para campeones del tipo "Marksman"',() => {
+    assert.deepEqual(window.computeStats(lolValues,"Marksman"),1
+  )});  
   })
