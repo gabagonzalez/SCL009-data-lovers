@@ -57,7 +57,7 @@ window.filterLol = filterLol;
 const computeStats = (lolValues,rolFilter) => {
   let calculateResult = filterLol(lolValues, rolFilter).length;
 
-  return Math.round((calculateResult/134)*100);
+  return calculateResult;
   //return calculateResult me entrega la cantidad de jugadores
 }
 //mathround redondea al entero más cercano
