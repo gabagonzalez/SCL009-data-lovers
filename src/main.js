@@ -108,7 +108,7 @@ document.getElementById("lol-filter").addEventListener("change",() => {
   sum.innerHTML ="";
   sum.innerHTML +=  `
   <div>
-    <p> El ${calcResult} % de los campeones, juegan este Rol </p>
+    <p> Del total de los campeones; ${calcResult} juegan este Rol </p>
   </div> 
   `    
 });
