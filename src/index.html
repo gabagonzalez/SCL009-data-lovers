@@ -11,23 +11,29 @@
 </head>
 
 <body class="body-champs">
+    <header col-12 col-sm-9 col-md-6 col-lg-3 col-xl-3>
+      <div class="container-header">
+        <div class="logo-title">
+          <img src="img/imgLogo.jpg" alt="">
+          <h5> Hace match con tu Campeón...</h5>
+        </div>
+        <label class="icon-mennu"></label>
+      </div>
+    </header>
   <div class="container col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-    <header col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12>
-      <a><img src="https://i.ibb.co/Zff3JVW/lifebartext6.png" class="lifebar-lol"></a> 
-      <div class="wrapper col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-        <!--<a href="./index.html"><img src="https://i.ibb.co/BTVZKQ6/champions-Logo-OK.png" alt="" class="brand-lol"></a>-->
-          <!--<div id="buscar" class="search-bar">
-            <a href="./index.html"><img src="./img/lifebar2.png" alt="" class ="brand-lol"></a>
+      <a href="./index.html"><img src="https://i.ibb.co/Zff3JVW/lifebartext6.png" class="lifebar-lol"></a> 
+      <div class="wrapper col-12 col-sm-9 col-md-6 col-lg-6 col-xl-6">
+          <div id="buscar" class="search-bar">
             <div class="menu-option">
               <fieldset id="champs-search" class="champs-search">
                 <input type="text" id="search-for-champion" class="search-for-champion" name="q" placeholder="Buscar Campeones" autocomplete="on" value="">
                 <button id="search-btn" class="search-btn" type="button"><img src="https://i.ibb.co/6mhsKtc/lupita.png" alt=""></button>
               </fieldset>
             </div>
-          </div>-->
-          <nav class="navbar col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"></nav>
-          <ul id ="menú" class="menu-bar col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <li id="Order" class="menu-option">
+          </div>
+          <nav class="navbar">
+          <ul id ="menú" class="menu-bar">
+            <li id="Order" class="menu-option col-12 col-sm-9 col-md-6 col-lg-6 col-xl-6">
               <fieldset id="champs-sort" class="champs-sort">
                 <div id="lol-sort-option" class="lol-sort-option"></div>
                 <select id="lol-sort" name="orden" class="lol-sort">
@@ -42,12 +48,12 @@
               <a href="./index.html" target="blanck"><img class = "iconf" src="https://i.ibb.co/xXv1mCz/boton2.png" alt=""></a>
               <!--<button id="init-btn" class="search-btn" type="button" href="./index.html">INICIO</button>-->
             </div>
-            <li id="Filter" label value="0">
+            <li value="0" id="Filter label  col-12 col-sm-9 col-md-6 col-lg-6 col-xl-6">
               <fieldset id="champs-filter" class="champs-filter">
                 <div id="lol-filter-option" class="lol-filter-option"></div>
                 <div class="filter">
                   <select id="lol-filter" name="filt" class="lol-filter">
-                    <option value="Selected">FILTRA</option>
+                    <option value="Selected"> FILTRA </option>
                     <option value="Assassin">Assassin</option>
                     <option value="Fighter">Fighter</option>
                     <option value="Mage">Mage</option>
@@ -59,16 +65,16 @@
               </fieldset>
             </li>
           </ul>
-          <img src="https://i.ibb.co/w7RjSTN/barra.png" class = "brand-lol">
+            <img src="https://i.ibb.co/w7RjSTN/barra.png" class = "brand-lol">
         </nav>
       </div>
-    </header>    
-  </section>
+
   <!--DIV QUE MUESTRA EL CALCULO-->
     <section>
       <div id="calculation"></div>
     </section>
-    <div id="root"></div>
+    <div id="root" col-12 col-sm-9 col-md-6 col-lg-6 col-xl-6 >
+    </div>
   </div>
 
   <footer>
@@ -82,7 +88,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script src="./data/lol/lol.js"></script>
+   <script src="./data/lol/lol.js"></script>
   <script src="data.js"></script>
   <script src="main.js"></script>
 </body>
