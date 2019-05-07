@@ -56,18 +56,19 @@ header{
     margin-left: 0px;
     position: relative;
     left: 0px;
+    border-radius:40px;
 
 }
-
+/*
 .logo-title h5{
     font-family: 'ZCOOL KuaiLe';
     color:rgb(41, 168, 173);
     font-weight: 100;
-    /*padding-top: 1%;*/
+    padding-top: 1%;
     margin-left: 20px;
     margin-top: 20px;
 }
-
+*/
 .icon-menu{
     position: absolute;
     right: 10px;
@@ -124,18 +125,20 @@ wrapper nav a:hover {
 @media screen and (max-width:950px){
     header .logo,
     container{
-        padding-top: 5%;
+        padding-top: 20%;
     }
     wrapper nav {
         width:100%;
         text-align:center;
         line-height:100px;
     }
+    /*
     lifebar-lol {
         width:100%;
         text-align:center;
         line-height:100px;
-    }
+        padding-top: 20%;
+    }*/
 } 
 
 /*HISTORIA DE USUARIO 1- CARDS PARA MOSTRAR DATA*/
@@ -301,7 +304,7 @@ wrapper nav a:hover {
     padding: 2px;
     background-color: #937341;
     /**/
-    float: left;
+    /*float: left;*/
 }
 .lol-sort:hover{
     background-color: rgb(55, 219, 248);
@@ -310,22 +313,25 @@ wrapper nav a:hover {
     font-weight: bold;
 }
 .lol-filter {
-    /*border: 2px solid #896331;
+    border: 2px solid #896331;
     font-family: 'ZCOOL KuaiLe';
     font-weight: bold;
     padding: 2px;
     background-color: #937341;
-    */
+    /**/
+    /*float: left;*/
+    
+    /*
     background: url(https://i.ibb.co/2SBwkBh/sprites-select.png) 0 -293px;color: #b2d9db;
     float: right;
     height: 45px;
-    /*line-height: 28px;*/
+    line-height: 28px;
     margin: 5px 0 0 17px;
     padding: 10px 0 0 0;
     position: relative;
     text-align: center;
     width: 129px;
-    z-index: 0;
+    z-index: 0;*/
 }
 .lol-filter:hover{
     background-color: rgb(23, 111, 133);
@@ -385,7 +391,7 @@ wrapper nav a:hover {
     right:20px;
 }*/
 
-/* Buscar*/
+/* Buscar
 .search-for-champion{
     width:85%;
     border: 2px solid #896331;
@@ -425,4 +431,4 @@ wrapper nav a:hover {
     margin: 5px;
     font-family: 'ZCOOL KuaiLe';
     font-weight: normal;
-}
+}*/

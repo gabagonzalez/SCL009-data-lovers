@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Champions Lovers of League of Legends - Data Lovers</title>
+  <title>Match Gamer-Champions League of Legends</title>
   <link rel="icon" type="image/png" href="https://i.ibb.co/VNkZtLn/icon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -14,26 +14,18 @@
     <header col-12 col-sm-9 col-md-6 col-lg-3 col-xl-3>
       <div class="container-header">
         <div class="logo-title">
-          <img src="img/imgLogo.jpg" alt="">
-          <h5> Hace match con tu Campeón...</h5>
+          <img src="img/imgLogo.jpg" class="img-fluid" alt="Responsive image">
+          <!--<h5> Hace match con tu Campeón...</h5>-->
         </div>
         <label class="icon-mennu"></label>
       </div>
     </header>
   <div class="container col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-      <a href="./index.html"><img src="https://i.ibb.co/Zff3JVW/lifebartext6.png" class="lifebar-lol"></a> 
-      <div class="wrapper col-12 col-sm-9 col-md-6 col-lg-6 col-xl-6">
-          <div id="buscar" class="search-bar">
-            <div class="menu-option">
-              <fieldset id="champs-search" class="champs-search">
-                <input type="text" id="search-for-champion" class="search-for-champion" name="q" placeholder="Buscar Campeones" autocomplete="on" value="">
-                <button id="search-btn" class="search-btn" type="button"><img src="https://i.ibb.co/6mhsKtc/lupita.png" alt=""></button>
-              </fieldset>
-            </div>
-          </div>
-          <nav class="navbar">
-          <ul id ="menú" class="menu-bar">
-            <li id="Order" class="menu-option col-12 col-sm-9 col-md-6 col-lg-6 col-xl-6">
+      <a href="./index.html"><img src="https://i.ibb.co/Zff3JVW/lifebartext6.png" class="img-fluid" alt="Responsive image"></a> 
+      <div class="wrapper col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <nav class="navbar col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <ul id ="menú" class="menu-bar col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <li id="Order" class="menu-option">
               <fieldset id="champs-sort" class="champs-sort">
                 <div id="lol-sort-option" class="lol-sort-option"></div>
                 <select id="lol-sort" name="orden" class="lol-sort">
@@ -48,12 +40,12 @@
               <a href="./index.html" target="blanck"><img class = "iconf" src="https://i.ibb.co/xXv1mCz/boton2.png" alt=""></a>
               <!--<button id="init-btn" class="search-btn" type="button" href="./index.html">INICIO</button>-->
             </div>
-            <li value="0" id="Filter label  col-12 col-sm-9 col-md-6 col-lg-6 col-xl-6">
+            <li id="Filter" label value="0">
               <fieldset id="champs-filter" class="champs-filter">
                 <div id="lol-filter-option" class="lol-filter-option"></div>
                 <div class="filter">
                   <select id="lol-filter" name="filt" class="lol-filter">
-                    <option value="Selected"> FILTRA </option>
+                    <option value="Selected" href="./index.html">FILTRA</option>
                     <option value="Assassin">Assassin</option>
                     <option value="Fighter">Fighter</option>
                     <option value="Mage">Mage</option>
@@ -65,10 +57,9 @@
               </fieldset>
             </li>
           </ul>
-            <img src="https://i.ibb.co/w7RjSTN/barra.png" class = "brand-lol">
+           <img src="https://i.ibb.co/w7RjSTN/barra.png" class = "brand-lol">
         </nav>
       </div>
-
   <!--DIV QUE MUESTRA EL CALCULO-->
     <section>
       <div id="calculation"></div>
