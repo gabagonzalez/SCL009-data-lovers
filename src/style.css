@@ -390,45 +390,7 @@ wrapper nav a:hover {
     bottom:20px;
     right:20px;
 }*/
-
-/* Buscar
-.search-for-champion{
-    width:85%;
-    border: 2px solid #896331;
-    border-radius: 5px;
-    outline:none;
-    resize: none;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'ZCOOL KuaiLe';
-    padding: 5px
-
+.modal-img{
+    width:100%;
+    height:100%
 }
-.search-btn{
-    background-color: #937341;
-    border: 2px outset #896331;
-    font-size: 15px;
-    font-family: 'ZCOOL KuaiLe';
-    font-weight: bold;
-    outline: none;
-    transition-duration:0.5s;
-    width: 60px;
-    height: 40px;
-    overflow: hidden;
-}
-.search-btn:hover{
-    transition: 0.3s ease;
-    font-weight: bold;
-    background-color: #A68747;
-    border: 5px outset #937341;
-}
-.search-btn:active{
-    box-shadow: 0 1px #101A1C;
-    transform: translateY(1px);
-}
-.checkbox-inline{
-    display: inline-flex;
-    margin: 5px;
-    font-family: 'ZCOOL KuaiLe';
-    font-weight: normal;
-}*/

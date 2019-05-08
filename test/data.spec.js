@@ -28,6 +28,10 @@ const lolValues = [
   {
     name: "Zyra",
     tags: "Mage",
+  },
+  {
+    name: "Veigar",
+    tags: "Mage",
   }
 ]
 
@@ -39,8 +43,8 @@ describe('función orderLol', () => {
     assert.equal(typeof orderLol, 'function');
   });
 
-  it('debería retornar ["Aatrox","Ashe","Zyra"] para champsOrder "00",orden de "A-Z"', () => {
-    assert.deepEqual(window.orderLol(lolValues,"00"), [{name: "Aatrox", tags:"Fighter"},{name: "Ashe", tags:"Marksman"},{name: "Zyra", tags:"Mage"}]);
+  it('debería retornar ["Aatrox","Ashe","Veigar","Zyra"] para champsOrder "00",orden de "A-Z"', () => {
+    assert.deepEqual(window.orderLol(lolValues,"00"), [{name: "Aatrox", tags:"Fighter"},{name: "Ashe", tags:"Marksman"},{name:"Veigar",tags:"Mage"},{name: "Zyra", tags:"Mage"}]);
     
   }); //deepequal debemos pasarle todos los parametros
  
@@ -69,7 +73,7 @@ describe('función computeStats', () => {
      assert.equal(typeof computeStats, 'function');
    });
 
-   it('debería retornar 1, para campeones del tipo "Marksman"',() => {
-    assert.deepEqual(window.computeStats(lolValues,"Marksman"),1
-  )});  
+   it('debería retornar 2, para campeones del tipo "Mage"',() => {
+    assert.deepEqual(window.computeStats(lolValues,"Mage"),2)
+  });  
   })
