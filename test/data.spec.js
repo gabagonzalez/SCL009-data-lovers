@@ -19,20 +19,25 @@ const lolValues = [
 
   {
     name: "Aatrox",
-    tags:"Fighter", 
+    tags:"Fighter",
+    difficulty: 5
   },
   {
     name: "Ashe",
     tags: "Marksman",
+    difficulty: 4
   },
   {
     name: "Zyra",
     tags: "Mage",
+    difficulty: 7
   },
   {
     name: "Veigar",
     tags: "Mage",
+    difficulty: 7
   }
+
 ]
 
 //HISTORIA DE USUARIO 2-TEST PARA LA FUNCIÓN ORDENAR
@@ -48,6 +53,16 @@ describe('función orderLol', () => {
     
   }); //deepequal debemos pasarle todos los parametros
  
+  it('debería retornar ["Zyra","Veigar","Ashe","Aatrox"] para champsOrder "01",orden de "Z-A"', () => {
+    assert.deepEqual(window.orderLol(lolValues,"01"), [{name: "Zyra", tags:"Mage"},{name: "Veigar", tags:"Mage"},{name: "Ashe", tags:"Marksman"},{name: "Aatrox", tags:"Fighter"}]);
+    
+  });
+
+  it('debería retornar ["Ashe","Aatrox","Veigar","Zyra"] para champsOrder "02",orden de "DIFICULTAD"', () => {
+    assert.deepEqual(window.orderLol(lolValues,"02"), [{name: "Ashe", tags:"Marksman"},{name: "Aatrox", tags:"Fighter"},{name: "Veigar", tags:"Mage"},{name: "Zyra", tags:"Mage"}]);
+    
+  });
+
 })
 
 //HISTORIA DE USUARIO 3-TEST PARA LA FUNCIÓN FILTRADO
