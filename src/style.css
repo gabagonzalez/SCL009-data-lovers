@@ -3,6 +3,7 @@
 /* estilo logo*/
 .brand-lol{
     display: block;
+    padding-top: 1%;
     justify-content: center;
     margin: auto;
     width: 60%;
@@ -19,6 +20,7 @@ h4{
 /* div generico*/
 .div {
    text-align:center;
+   padding: 20px;
 }
 
 /*estilo fondo body*/
@@ -31,9 +33,53 @@ h4{
     padding: 20px;
 }
 
+header{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+}
+
+.container-header{
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+}
+
+.logo-title{
+    display: flex;
+}
+.logo-title img{
+    width: 160px;
+    height: 90px;
+    margin-top: 10px;
+    margin-left: 0px;
+    position: relative;
+    left: 0px;
+    border-radius:40px;
+
+}
+/*
+.logo-title h5{
+    font-family: 'ZCOOL KuaiLe';
+    color:rgb(41, 168, 173);
+    font-weight: 100;
+    padding-top: 1%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+*/
+.icon-menu{
+    position: absolute;
+    right: 10px;
+    top: 14px;
+    color:#f2bc00 solid 1px;
+    font-size: 28px;
+}
+/*
 .header{
     width: 100%;
-    overflow: hidden;
+    oerflow: hidden;
     margin-bottom: 20px;
     position: fixed;
     top: 0;
@@ -42,7 +88,7 @@ h4{
     z-index: 1000;
     background:rgb(129, 141, 16);
     display: flex;
-}
+}*/
 
 .wrapper{
     width:100%;
@@ -52,12 +98,12 @@ h4{
     overflow: hidden;
 }
 
-.header.nav{
+.wrapper.nav{
     float: right;
     line-height:200px;
 }
 
-.header nav a{
+.wrapper nav a{
     display: inline-block;
     color:#fff;
     text-decoration:none;
@@ -70,19 +116,29 @@ h4{
     transition:all 500ms ease;
 }
 
-header nav a:hover {
+wrapper nav a:hover {
     background:#24c3ce;
     border-radius:50px;
 }
 
 /*pensado en el responsive*/
 @media screen and (max-width:950px){
-    /*header .logo,*/
-    header nav {
+    header .logo,
+    container{
+        padding-top: 20%;
+    }
+    wrapper nav {
         width:100%;
         text-align:center;
         line-height:100px;
     }
+    /*
+    lifebar-lol {
+        width:100%;
+        text-align:center;
+        line-height:100px;
+        padding-top: 20%;
+    }*/
 } 
 
 /*HISTORIA DE USUARIO 1- CARDS PARA MOSTRAR DATA*/
@@ -99,6 +155,10 @@ header nav a:hover {
     outline-style: ridge;
     outline-color: #ffde44;
     border: #f2bc00 solid 1px;
+}
+.root img{
+    display: flex;
+    align-content: flex-end;
 }
 
 /*estilo a las cards, movimiento, imagen, borde*/ 
@@ -182,7 +242,6 @@ header nav a:hover {
     flex-wrap: nowrap;
     margin: auto;
     padding: 0%;
-    /*background-image: url("i.ibb.co/Zff3JVW/lifebartext6.png");*/
     background-color: transparent;
     list-style-type: none;
     overflow: hidden;
@@ -211,7 +270,8 @@ header nav a:hover {
 }
 
 .menu-bar a:hover:not(.active) {
-    background-color: blue;
+    background: rgb(12, 12, 12, 0.9);
+    border-radius: 20px;
 }
 
 /*HISTORIA DE USUARIO 2 Y 3 - SELECT PARA ORDENAR Y FILTRAR DATA*/
@@ -243,6 +303,8 @@ header nav a:hover {
     font-weight: bold;
     padding: 2px;
     background-color: #937341;
+    /**/
+    /*float: left;*/
 }
 .lol-sort:hover{
     background-color: rgb(55, 219, 248);
@@ -256,6 +318,20 @@ header nav a:hover {
     font-weight: bold;
     padding: 2px;
     background-color: #937341;
+    /**/
+    /*float: left;*/
+    
+    /*
+    background: url(https://i.ibb.co/2SBwkBh/sprites-select.png) 0 -293px;color: #b2d9db;
+    float: right;
+    height: 45px;
+    line-height: 28px;
+    margin: 5px 0 0 17px;
+    padding: 10px 0 0 0;
+    position: relative;
+    text-align: center;
+    width: 129px;
+    z-index: 0;*/
 }
 .lol-filter:hover{
     background-color: rgb(23, 111, 133);
@@ -268,31 +344,38 @@ header nav a:hover {
 /* ESTILO DIV CALCULO*/
 #calculation{
     display: none;
-    width: 200px;
-    height: 50px;
-    margin: 10px;
-    background-color: #5f7f91;
-    color:black;
-    justify-content: center;
-
+    width: 350px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("./img/cart.jpg");
+    /*background-color: #5f7f91;*/
+    font-family: 'ZCOOL KuaiLe';
+    font-weight: bold;
+    text-align: center; 
+    color: rgb(11, 37, 26);
+    padding-top: 1%;
+    border: #46390e solid 2px;
+    border-radius: 2px;
 }
 /*PARA FINALIZAR Y MÁS INFORMACIÓN AL USUARIO, REDES SOCIALES*/
 /*estilo al pie de pagina,*/
 .footer{
     width: 100%;
     height: 100%;
-    background:rgb(0, 0, 0);
-    line-height: 1px;
-    position: normal;
+
+    background: transparent;
+    line-height: 50px;
+    /*position: absolute;*/
     bottom: 0;
-    padding: 20px;
+    padding: 2%;
     
     
 }
 .container-footer{
     width: 100%;
     max-width: 1200px;
-    padding: 20px;   
+    padding: 2%;   
 }
 
 /*
