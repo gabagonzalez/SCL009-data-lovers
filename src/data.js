@@ -16,7 +16,7 @@ let orderLol = (lolValues, champsOrder) => {
   //orden "00" es A-Z
   if (champsOrder == "00"){
     resultOrder = lolValues.sort(sortBy);
-  }//orden "01" es A-Z
+  }//orden "01" es Z-A
   else if (champsOrder == "01"){
     resultOrder = lolValues.sort(sortBy).reverse();
   }//orden "02" es DIFICULTAD
