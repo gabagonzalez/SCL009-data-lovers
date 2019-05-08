@@ -33,6 +33,7 @@ let showLol = (lolValues) => {
 
       </div>
       <div class="modal-body"> 
+      <img class='modal-img' src="${lolValues[i].splash}"/>
       <h5 class="modal-title">${lolValues[i].title}</h5>
       <p>Ataque: ${lolValues[i].info.attack}</p>
 			<p>Defensa: ${lolValues[i].info.defense}</p>
@@ -109,6 +110,7 @@ document.getElementById('lol-sort').addEventListener('change', () => {
       </button>
       </div>
       <div class="modal-body">
+      <img class='modal-img' src="${element.splash}"/>
       <h5 class="modal-title">${element.title}</h5>
       <p>Ataque: ${element.info.attack}</p>
       <p>Defensa: ${element.info.defense}</p>
@@ -162,6 +164,7 @@ document.getElementById("lol-filter").addEventListener("change",() => {
 
       </div>
       <div class="modal-body">
+      <img class='modal-img' src="${element.splash}"/>
       <h5 class="modal-title">${element.title}</h5>
       <p>Ataque: ${element.info.attack}</p>
 			<p>Defensa: ${element.info.defense}</p>
