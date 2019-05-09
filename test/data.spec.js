@@ -20,18 +20,22 @@ const lolValues = [
   {
     name: "Aatrox",
     tags:"Fighter", 
+    info: { difficulty: 4 }
   },
   {
     name: "Ashe",
     tags: "Marksman",
+    info: { difficulty: 4 }
   },
   {
     name: "Zyra",
     tags: "Mage",
+    info: { difficulty: 7 }
   },
   {
     name: "Veigar",
     tags: "Mage",
+    info: { difficulty: 7 }
   }
 ]
 
@@ -44,10 +48,35 @@ describe('función orderLol', () => {
   });
 
   it('debería retornar ["Aatrox","Ashe","Veigar","Zyra"] para champsOrder "00",orden de "A-Z"', () => {
-    assert.deepEqual(window.orderLol(lolValues,"00"), [{name: "Aatrox", tags:"Fighter"},{name: "Ashe", tags:"Marksman"},{name:"Veigar",tags:"Mage"},{name: "Zyra", tags:"Mage"}]);
+    assert.deepEqual(window.orderLol(lolValues,"00"), [
+    {name: "Aatrox", tags:"Fighter",info: { difficulty: 4 }},
+    {name: "Ashe", tags:"Marksman", info: { difficulty: 4 }},
+    {name:"Veigar",tags:"Mage",info: { difficulty: 7 }},
+    {name:"Zyra", tags:"Mage",info: { difficulty: 7 }}
+  ]);
     
   }); //deepequal debemos pasarle todos los parametros
  
+  it('debería retornar ["Zyra","Veigar","Ashe","Aatrox"] para champsOrder "01",orden de "Z-A"', () => {
+    assert.deepEqual(window.orderLol(lolValues,"01"), [
+    {name:"Zyra", tags:"Mage",info: { difficulty: 7 }},
+    {name:"Veigar",tags:"Mage",info: { difficulty: 7 }},
+    {name: "Ashe", tags:"Marksman", info: { difficulty: 4 }},
+    {name: "Aatrox", tags:"Fighter",info: { difficulty: 4 }},
+  ]);
+    
+  });
+
+  it('debería retornar [4,4,7,7] para sortOrder,de menor a mayor dificultad', () => {
+    assert.deepEqual(window.orderLol(lolValues,"02"), [
+    {name: "Ashe", tags:"Marksman", info: { difficulty: 4 }},
+    {name: "Aatrox", tags:"Fighter",info: { difficulty: 4 }},
+    {name:"Zyra", tags:"Mage",info: { difficulty: 7 }},
+    {name:"Veigar",tags:"Mage",info: { difficulty: 7 }},
+  ]);
+    
+  });
+
 })
 
 //HISTORIA DE USUARIO 3-TEST PARA LA FUNCIÓN FILTRADO
@@ -59,7 +88,11 @@ describe('función filterLol', () => {//a quien voy a testear
   });
 //equal no sirve para arrays y objetos. equal busca que sea exacto
   it('debería retornar "Ashe" para primer champion de rol "Marksman"', () => {
-    assert.deepEqual(window.filterLol(lolValues,"Marksman"), [{name: "Ashe", tags:"Marksman"}]);
+    assert.deepEqual(window.filterLol(lolValues,"Marksman"), [
+      {name: "Ashe",
+      tags: "Marksman",
+      info: { difficulty: 4 }}
+    ]);
     //deepequal para arreglos y objetos busca que sea similar, no exacto:
   }); //deepequal necesita recibir lo q debes evaluar y lo que retorna, debemos pasarle todos los parametros
  
