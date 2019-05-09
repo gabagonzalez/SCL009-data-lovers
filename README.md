@@ -37,7 +37,7 @@ Con un plantel de campeones en constante expansión, actualizaciones frecuentes 
 
 ## **B-Resumen del proyecto**
 ***
-En la Novena generación de Laboratoria SCL, se nos planteó el desafió de hacer  una página web para visualizar un conjunto (set) de datos que se adecúe a lo que descubras que tu usuario necesita.. Para esta ardua tarea comenzamos, planteando las siguientes etapas:
+En la Novena generación de Laboratoria SCL, se nos planteó el desafió de hacer  una página web para visualizar un conjunto (set) de datos que se adecúe a lo que descubras que tu usuario necesita. Para esta ardua tarea comenzamos, planteando las siguientes etapas:
 
 
 ---
@@ -63,12 +63,12 @@ En la Novena generación de Laboratoria SCL, se nos planteó el desafió de hace
 
 ***
 
-Comenzamos con una búsqueda online para conocer las aplicaciones disponibles que den información, hay sitios que proporcionan o presentar la información, de realizar búsquedas y filtros  con data relacionada al juego. Más que programas son paginas donde muestran estadísticas de partidas en tiempo real, partidas que ya terminaron y hasta rankings o listas de jugadores con sus KDA o KDA del campeón.
+Comenzamos con una búsqueda online para conocer las aplicaciones disponibles que den información, hay sitios que proporcionan o presentan la información de realizar búsquedas y filtros con una data relacionada al juego. Más que programas, son páginas web donde muestran estadísticas de partidas en tiempo real, partidas que ya terminaron y hasta rankings o listas de jugadores con sus KDA o KDA del campeón.
 Ejemplo de las más usadas:
-- [Lolnexus](http://www.lolnexus.com/)(En ingles, pagina para buscar invocadores y sus estadísticas)
-- [Lolking](http://www.lolking.net/)(En Ingles, detalles de otros users,campeones y demás)
-- [SalsaLol](http://www.salsalol.com/)(En español, comunidad española de LoL con guias y noticias)
-- [Academia-Del-Invocador](http://www.academiadelinvocador.com/)(En español,para mejorar en el juego)
+- [Lolnexus](http://www.lolnexus.com/)(En inglés, página para buscar invocadores y sus estadísticas)
+- [Lolking](http://www.lolking.net/)(En inglés, detalles de otros users,campeones y demás)
+- [SalsaLol](http://www.salsalol.com/)(En español, comunidad española de LoL con guías y noticias)
+- [Academia-Del-Invocador](http://www.academiadelinvocador.com/)(En español,para mejorar estrategias de juego)
 - [Lategame](http://lategame.cl/) (En español, comunidad latina de LOL, con noticias y guías)
 
 ---
@@ -82,8 +82,7 @@ Están los GAMERS (48% de los encuestados) y los JUGADORES CASUALES (52%) que se
 Ambos grupos coinciden en que son predominantemente solteros, menos del 10% tiene hijos y **están entre los 18 y 24 años de edad.** La mitad comenzó a jugar hace más de 10 años y fueron principalmente las figuras familiares, como hermanos o padres, los que los "iniciaron" en este mundo.
 **La plataforma favorita para ambos grupos es el PC** pero difieren en su género de videojuegos favorito: mientras los gamers optan por los "shooters" (27%), los jugadores casuales prefieren los RPG (28%).
 ¿Cuál es el impacto positivo que han traído los videojuegos a sus vidas? Entretención, la posibilidad de conocer amigos (más de 67% de los gamers juega con amigos o familiares online) y una forma de relajo, son los elementos que más valoran. Sin duda, **se despeja la hipótesis de que los gamers juegan en forma solitaria.**
-(imagen grafico)
-Otro punto importante es que una amplia mayoría de los encuestados respondió que son ellos mismos quienes compran los juegos (79% gamers y 73% jugadores casuales). Más atrás quedó el porcentaje (35% gamer y 37% jugadores ocasionales). El resto se reparte entre quienes reciben sus juegos comprados por hermanos, otra persona o un amigo.
+(imagen gráfico)
 En resumen, podemos concluir que tanto los gamers como los jugadores ocasionales,**distan mucho de la imagen que los asocia como "personas aisladas".**
 
 ![gfk](src/img/gfk.jpg)
@@ -110,14 +109,14 @@ Referencias de Investigación: [GFK](https://trello.com/b/Nup1KMh3/league-of-leg
 -Datos usuario;
  Edad: 20, hombre.
 
--¿Juegas LoL ? y ¿ con qué frecuencia u horarios, ? 
+-¿Juegas LoL ? y ¿ con qué frecuencia u horarios? 
 Algunas veces a la semana, teniendo tiempo. Ya que una partida puede durar minimo 30 min.
 
--¿Nivel de jugador Básico, medio, avanzado?
+-¿Nivel de jugador básico, medio, avanzado?
  Principiante, medio.
 
--¿Qué información necesitarían y por qué que les entregara la app.?
-Para principiantes y medio avanzados, sería como guía, ver la Colección antes de la selección de campeones. (Mostrar data)
+-¿Qué información necesitan que les entregue la app?
+Para jugadores principiantes, medios y avanzados, sería como guía, poder ver la colección antes de seleccionar a los campeones. (Mostrar data)
 . Ver categorías o tipo: (Filtrar)
 1-Tank: top (arriba)
 2-Figther: Jungla
@@ -125,11 +124,11 @@ Para principiantes y medio avanzados, sería como guía, ver la Colección antes
 4-Tirador: ADC(abajo)
 5-Soporte
 
--¿Cuándo  o en qué situación  usarían la app.?
- Podría ser antes o durante el juego para ver habilidades o características de los campeones, para usar durante el juego al armar equipos.
+-¿Cuándo o en qué situación usarían la app?
+ Podría ser antes o durante el juego, para ver habilidades o características de los campeones y usarla durante el juego al armar equipos.
 
 Observaciones y otros:
-Importante agregar Aspectos  y el tema visual de la app.Texto acotado, sólo lo relevante.
+Importante agregar "Aspectos" y el tema visual de la app, texto acotado, sólo lo relevante.
 
 ---
 ---
@@ -150,21 +149,21 @@ Importante agregar Aspectos  y el tema visual de la app.Texto acotado, sólo lo 
 **Definición de la Problemática:** &#128559;
 ---
 ---
-**" Encontrar el campeón ideal para la batalla, y  así ganar con la mejor estrategia."**
+**" Encontrar el campeón ideal para la batalla, y así ganar con la mejor estrategia."**
 
 Sobre lo investigado; los usuarios a los que este proyecto va dirigido son aquellos jugadores de videojuegos (gamers) o personas que se inician en el mundo de “League of Legends” y quieren conocer más de los campeones para hacer la mejor elección.
 
 **Conclusiones**
 ---
 
-En resumen, el tipo usuario entrevistado es un jugador principiante de League of Legends, conoce el juego desde hace mucho tiempo, pero se considera aun relativamente nuevo. 
+En resumen, el tipo de usuario entrevistado es un jugador principiante de League of Legends, conoce el juego desde hace mucho tiempo, pero se considera aun, relativamente nuevo. 
 Durante la entrevista con el usuario se destacan: la diversidad de campeones que se pueden usar en el juego. 
 La cantidad, ya que al ser cientos de personajes se hace complicado para un jugador principiante el poder reconocerlos y asociarlos con sus roles, dificultad, etc. 
-Por lo que se hace importante para necesidad de nuestro usuario:
+Por lo que se hace importante, para necesidad de nuestro usuario:
 •	Si pudiese visualizar la información concisa de los campeones (nombres e imágenes)
 •	Si pudiese ordenar por la dificultad de uso de cada uno.
 •	Si pudiese ver los tipos/roles que cumplen cada campeón.
-•   Y quizás de manera secundaria información extra como los puntos de vida y de maná de cada campeón por niveles, ya que esto le facilitaría desarrollarse         mejor en las partidas.
+•   Y quizás, de manera secundaria, información extra como los puntos de vida y de maná (energía) de cada campeón por niveles, ya que esto le facilitaría desarrollarse mejor en las partidas.
 
 **HISTORIAS DE USUARIOS**
 ---
@@ -204,7 +203,7 @@ Diseño de experiencia de usuario (UX):
 
 Posterior a las primeras entrevistas, pudimos concluir que con la data disponible, nuestra aplicacion debe ir dirigida a usuarios principiantes, ya que usuarios mas avanzados requieren informacion que no siempre se encuentra en lo que tenemos.
 También la información debe ser entregada de la forma más precisa y acotada.
-Y serviria a los usuarios principiantes informacion como debilidad, y Roles para tomar la decision a la hora de elegir que campeon utilizar.
+Y serviría a los usuarios principiantes información como debilidad, y Roles para tomar la decision a la hora de elegir que campeon a utilizar.
 
 
 
@@ -224,9 +223,9 @@ Y serviria a los usuarios principiantes informacion como debilidad, y Roles para
 
  - Prototipado
 
- [Figma](https://www.figma.com/) link !!!
+ [Figma](https://www.figma.com/proto/LKNz5De5N7ZaRIOMV9PpctBL/Untitled?node-id=0%3A1&scaling=min-zoom) 
 
- [Zeplin](https://zeplin.io/) link!!!
+ [Zeplin](zpl.io/2ZreR7J) 
 
  - Testeo e Iteración 
 
@@ -241,8 +240,8 @@ Esto nos confirma el orden de las Historias de Usuarios para poder dejarlos de l
 
 4. Mostrar Calculo al Filtrar.
 
-En estos testeos podemos conseguir información para corregir diseño. Modificar colores, formas, etc.
-Y se decide por la familiaridad que tiene el usuario con el juego (League of Legend) seguir patrones similares de colores, estilos, etc.
+En estos testeos podemos conseguir información para corregir diseño, modificar colores, formas, etc.
+Se decide por la familiaridad que tiene el usuario con el juego (League of Legend) seguir patrones similares de colores, estilos, etc.
 Se corrigen ubicaciones dentro del select.
 
 Y se consideran para futuros cambios (hacking edition); barras de búsqueda, botones adicionales si fueran necesarios para hacer mas amigable la aplicación para el usuario.
@@ -260,7 +259,7 @@ Y se consideran para futuros cambios (hacking edition); barras de búsqueda, bot
 
 **QUÉ ES? 😯**
 --
-Web app., para jugadores de [League of Legend](https://las.leagueoflegends.com/es/) 
+Web app, para jugadores de [League of Legend](https://las.leagueoflegends.com/es/) 
 
 Aplicación web que interactúe con el usuario a través del navegador y la lógica basada en esa interacción que servirá para que el usuario pueda ver los perfiles y acceder a la data relacionada con los personajes de la interfaz del juego, llamados "Campeones".
 
@@ -273,16 +272,16 @@ Imagen, Nombre, Rol, Dificultad, etc.
 
  ![web](src/img/web.jpg)
 
-El objetivo de la webApp es ser una herramientas que ayude en el proceso de busqueda de información y elección de los campeones.
-Considerando esta via a futuro, también bajo una temática lúdica, para poder interactuar quizas con otros jugadores y aprovechar la informacion entregada por los perfiles, roles, etc. ya que a traves de los mismos con gustos y caracteristicas de los campeones se pueden generar patrones y similitudes con otros jugadores de Lol.
+El objetivo de la plataforma es ser una herramientas que ayude en el proceso de busqueda de información y elección de los campeones.
+Considerando esta via a futuro, también bajo una temática lúdica, para poder interactuar quizás con otros jugadores y aprovechar la informacion entregada por los perfiles, roles, etc. ya que a través de los mismos con gustos y características de los campeones, se pueden generar patrones y similitudes con otros jugadores de Lol.
 
 **La interfaz permite al usuario:**
 --
 - Ver la Data.
-- Ordenar la Data Alfabeticamente.
+- Ordenar la Data Alfabéticamente.
 - Ordenar la Data por Dificultad.
 - Filtrar la Data por Roles.
-- Ver el calculo de la cantidad de campeones por Rol al filtrar.
+- Ver el cálculo de la cantidad de campeones por Rol al filtrar.
 
 **Links relacionados**
 --
