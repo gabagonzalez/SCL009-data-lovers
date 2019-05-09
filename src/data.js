@@ -16,12 +16,15 @@ let orderLol = (lolValues, champsOrder) => {
   //orden "00" es A-Z
   if (champsOrder == "00"){
     resultOrder = lolValues.sort(sortBy);
-  }//orden "01" es A-Z
+  }//orden "01" es Z-A
   else if (champsOrder == "01"){
     resultOrder = lolValues.sort(sortBy).reverse();
-  }//orden "02" es DIFICULTAD
+  }//orden "02" es DIFICULTAD MENOR A MAYOR
   else if (champsOrder == "02"){
     resultOrder= lolValues.sort(sortOrder);
+  }//orden "03" es DIFICULTAD MAYOR A MENOR
+  else if (champsOrder == "03"){
+    resultOrder= lolValues.sort(sortOrder).reverse();
   }
   return resultOrder;
 }
@@ -37,7 +40,12 @@ function sortBy (a,b) {
 }
 //ordena Numéricamente
 function sortOrder (a,b){
-  return a.info.difficulty - b.info.difficulty;
+  if(a.info.difficulty >b.info.difficulty){
+    return 1;
+  }if(a.info.difficulty <b.info.difficulty){
+    return -1;
+  } return 0;
+ // return a.info.difficulty - b.info.difficulty;
 }
 
 //HISTORIA DE USUARIO 3-FUNCIÓN FILTRAr DATA
