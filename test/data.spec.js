@@ -37,6 +37,7 @@ const lolValues = [
     tags: "Mage",
     info: { difficulty: 7 }
   }
+
 ]
 
 //HISTORIA DE USUARIO 2-TEST PARA LA FUNCIÓN ORDENAR
