@@ -77,6 +77,17 @@ describe('función orderLol', () => {
     
   });
 
+  it('debería retornar [7,7,4,4] para sortOrder,de mayor a menor dificultad', () => {
+    assert.deepEqual(window.orderLol(lolValues,"03"), [
+  
+    {name:"Veigar",tags:"Mage",info: { difficulty: 7 }},
+    {name:"Zyra", tags:"Mage",info: { difficulty: 7 }},
+    {name: "Aatrox", tags:"Fighter",info: { difficulty: 4 }},
+    {name: "Ashe", tags:"Marksman", info: { difficulty: 4 }},
+  ]);
+    
+  });
+
 })
 
 //HISTORIA DE USUARIO 3-TEST PARA LA FUNCIÓN FILTRADO
