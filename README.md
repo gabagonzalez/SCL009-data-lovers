@@ -48,8 +48,13 @@ En la Novena generación de Laboratoria SCL, se nos planteó el desafió de hace
 ---
  [![trello](src/img/trello.jpg)](https://trello.com/b/Nup1KMh3/league-of-legend)
 
-- Esquemas, Flujos, (imagenes)!!!!!!!!!
-- Prototipos de Baja Fidelidad. (imágenes)!!!!!!
+- Esquemas, Flujos
+
+![pbaja2](src/img/pbaja2.jpg)
+
+
+- Otros
+![plan](src/img/plan.jpeg)
 
 ---
 ---
@@ -81,9 +86,9 @@ Ambos grupos coinciden en que son predominantemente solteros, menos del 10% tien
 Otro punto importante es que una amplia mayoría de los encuestados respondió que son ellos mismos quienes compran los juegos (79% gamers y 73% jugadores casuales). Más atrás quedó el porcentaje (35% gamer y 37% jugadores ocasionales). El resto se reparte entre quienes reciben sus juegos comprados por hermanos, otra persona o un amigo.
 En resumen, podemos concluir que tanto los gamers como los jugadores ocasionales,**distan mucho de la imagen que los asocia como "personas aisladas".**
 
-(Imagen grafico)!!!!!!
+![gfk](src/img/gfk.jpg)
 
-( Referencias de Investigación: GFK.) link !!!!!!!!!
+Referencias de Investigación: [GFK](https://trello.com/b/Nup1KMh3/league-of-legend)
 
 ---
 ---
@@ -173,7 +178,11 @@ Por lo que se hace importante para necesidad de nuestro usuario:
 ### IDEACIÓN Y PROTOTIPADO
 ***
 
-(fotos de los avances de la web, ejemplos)!!!
+**AVANCES**
+
+![pro2](src/img/pro2.jpg)
+![pro3](src/img/pro3.jpg)
+![pro1](src/img/pro1.jpg)
 
 #### Prototipo de baja fidelidad
 ---
@@ -182,17 +191,38 @@ Test Usabilidad
 Diseño de experiencia de usuario (UX):
 - Prototipado (sketching)
 
-(foto)!!!
+
+![pbaja1](src/img/pbaja1.jpg)
+
+
+
+**ENTREVISTAS**
+
+![parque](src/img/parque.jpg)
+
 - Testeo e Iteración
 
-(documentar, fotos, audios de todas las iteraciones, testeo)!!!
+Posterior a las primeras entrevistas, pudimos concluir que con la data disponible, nuestra aplicacion debe ir dirigida a usuarios principiantes, ya que usuarios mas avanzados requieren informacion que no siempre se encuentra en lo que tenemos.
+También la información debe ser entregada de la forma más precisa y acotada.
+Y serviria a los usuarios principiantes informacion como debilidad, y Roles para tomar la decision a la hora de elegir que campeon utilizar.
+
 
 
 ---
 #### Prototipo de alta fidelidad
 ---
  Test Usabilidad Diseño de experiencia de usuario (UX):
- - Prototipado 
+
+**VIDEOS**
+
+
+[![lolvideo](src/img/2Video.jpg)](https://youtu.be/Es4jvoslxnc)
+
+ [![lolvideo](src/img/1Video.jpg)](https://youtu.be/IoEPtu5j680)
+
+
+
+ - Prototipado
 
  [Figma](https://www.figma.com/) link !!!
 
@@ -200,7 +230,23 @@ Diseño de experiencia de usuario (UX):
 
  - Testeo e Iteración 
 
-(documentar, fotos, video de todas las iteraciones, testeo)!!!
+Posterior a las primeras entrevistas, pudimos concluir el recorrido que hace el usuario al usar la aplicación. 
+Esto nos confirma el orden de las Historias de Usuarios para poder dejarlos de la siguientes manera:
+
+1. Mostrar Data.
+
+2. Ordenar Data.
+
+3. Filtrar Data. 
+
+4. Mostrar Calculo al Filtrar.
+
+En estos testeos podemos conseguir información para corregir diseño. Modificar colores, formas, etc.
+Y se decide por la familiaridad que tiene el usuario con el juego (League of Legend) seguir patrones similares de colores, estilos, etc.
+Se corrigen ubicaciones dentro del select.
+
+Y se consideran para futuros cambios (hacking edition); barras de búsqueda, botones adicionales si fueran necesarios para hacer mas amigable la aplicación para el usuario.
+
 
 
 ---
