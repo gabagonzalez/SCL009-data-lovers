@@ -46,9 +46,10 @@ En la Novena generación de Laboratoria SCL, se nos planteó el desafió de hace
 ## **1-Planificación**
 - Aplicación de [Trello](https://trello.com/b/Nup1KMh3/league-of-legend)
 ---
- ![trello](src/img/trello.jpg)
+ [![trello](src/img/trello.jpg)](https://trello.com/b/Nup1KMh3/league-of-legend)
 
-- Esquemas, Flujos, Prototipos de Baja Fidelidad. (imágenes)
+- Esquemas, Flujos, (imagenes)!!!!!!!!!
+- Prototipos de Baja Fidelidad. (imágenes)!!!!!!
 
 ---
 ---
@@ -80,7 +81,9 @@ Ambos grupos coinciden en que son predominantemente solteros, menos del 10% tien
 Otro punto importante es que una amplia mayoría de los encuestados respondió que son ellos mismos quienes compran los juegos (79% gamers y 73% jugadores casuales). Más atrás quedó el porcentaje (35% gamer y 37% jugadores ocasionales). El resto se reparte entre quienes reciben sus juegos comprados por hermanos, otra persona o un amigo.
 En resumen, podemos concluir que tanto los gamers como los jugadores ocasionales,**distan mucho de la imagen que los asocia como "personas aisladas".**
 
-( Referencias de Investigación: GFK.)
+(Imagen grafico)!!!!!!
+
+( Referencias de Investigación: GFK.) link !!!!!!!!!
 
 ---
 ---
@@ -142,7 +145,7 @@ Importante agregar Aspectos  y el tema visual de la app.Texto acotado, sólo lo 
 **Definición de la Problemática:** &#128559;
 ---
 ---
-**" Encontrar el campeón ideal para la batalla, y así ganar con la mejor estrategia."**
+**" Encontrar el campeón ideal para la batalla, y  así ganar con la mejor estrategia."**
 
 Sobre lo investigado; los usuarios a los que este proyecto va dirigido son aquellos jugadores de videojuegos (gamers) o personas que se inician en el mundo de “League of Legends” y quieren conocer más de los campeones para hacer la mejor elección.
 
@@ -169,34 +172,43 @@ Por lo que se hace importante para necesidad de nuestro usuario:
 
 ### IDEACIÓN Y PROTOTIPADO
 ***
+
+(fotos de los avances de la web, ejemplos)!!!
+
 #### Prototipo de baja fidelidad
+---
 
 Test Usabilidad
 Diseño de experiencia de usuario (UX):
-•	Prototipado (sketching)
-•	Testeo e Iteración 
+- Prototipado (sketching)
 
-(sketches (boceto) de tu
-solución usando papel y lápiz. 
-fotos de todas las iteraciones que realices)
-[Figma](https://www.figma.com/) 
+(foto)!!!
+- Testeo e Iteración
 
+(documentar, fotos, audios de todas las iteraciones, testeo)!!!
+
+
+---
 #### Prototipo de alta fidelidad
+---
+ Test Usabilidad Diseño de experiencia de usuario (UX):
+ - Prototipado 
 
- Test Usabilidad
-Diseño de experiencia de usuario (UX):
-•	Prototipado 
-•	Testeo e Iteración 
+ [Figma](https://www.figma.com/) link !!!
 
-(Test de Usabilidad, fotos de todas las iteraciones que realices)
-[Zeplin](https://zeplin.io/)
+ [Zeplin](https://zeplin.io/) link!!!
+
+ - Testeo e Iteración 
+
+(documentar, fotos, video de todas las iteraciones, testeo)!!!
+
 
 ---
 ---
 ## **6-MATCH GAMER**
 ---
 ***
-![logo](src/img/imglogo.jpg)
+![logo](src/img/imgLogo.jpg)
 **QUÉ ES? 😯**
 --
 Web app., para jugadores de [League of Legend](https://las.leagueoflegends.com/es/) 
@@ -226,6 +238,6 @@ Considerando esta via a futuro, también bajo una temática lúdica, para poder 
 **Links relacionados**
 --
 - Readme Proyecto : https://gabagonzalez.github.io/SCL009-data-lovers
-- Código: https://gabagonzalez.github.io/SCL009-data-lovers/src/index.html
-- Trello: https://trello.com/b/Nup1KMh3/league-of-legen
+- Código Proyecto  : https://gabagonzalez.github.io/SCL009-data-lovers/src/index.html
+- Trello Proyecto : https://trello.com/b/Nup1KMh3/league-of-legen
 
