@@ -378,6 +378,25 @@ wrapper nav a:hover {
     padding: 2%;   
 }
 
+/*ESTILO DEL MODAL*/
+.modal-dialog{
+    width:50vw; 
+    height:50vh; 
+}
+
+.modal-img{
+    width:100%;
+    height:100%
+}
+
+.modal-body{
+    background-color:black;
+    opacity: 0.9;
+    color: #937341;
+    text-align: center;
+    
+}
+
 /*
 .ir-arriba {
     display: inline-block;
@@ -390,7 +409,3 @@ wrapper nav a:hover {
     bottom:20px;
     right:20px;
 }*/
-.modal-img{
-    width:100%;
-    height:100%
-}
