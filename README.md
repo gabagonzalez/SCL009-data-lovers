@@ -209,6 +209,9 @@ Diseño de experiencia de usuario (UX):
 ---
 ***
 ![logo](src/img/imgLogo.jpg)
+
+
+
 **QUÉ ES? 😯**
 --
 Web app., para jugadores de [League of Legend](https://las.leagueoflegends.com/es/) 
