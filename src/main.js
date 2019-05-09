@@ -56,28 +56,6 @@ let showLol = (lolValues) => {
   }
 }
 
-/*con foreach
- //foreach: aquienvoyarecorrer.foreach(Element corresponde al Objeto Que esta Dentro De Cada Posicion) 
- //foreach muestra lo que esta dentro desde el principio hasta el final, recorre i++ automaticamente
- //element = lolValues[i] muestra cada objeto. no es la posicion, es lo que hay dentro de esa posicion
-
-let showLol = (lolValues) => {
-  lolValues.forEach(element => {
-    container.innerHTML += `
-      <div id="flip-container">
-        <div class='cards'>
-          <li class='name'> ${element.name}</li>
-          <li class='name'> Dificult ${element.info.difficulty}</li>
-          <img class='front' src="${element.img}"/>
-          <div class='back'>
-            <li class='name'> ${element.id}</li>
-          </div>
-        </div>
-      </div> 
-    `     
-  });
-}*/
-
 window.onload = showLol(lolValues);
 //onload: método window que asegura que todo esté cargado para que se pueda llamar a esta función
 
@@ -201,32 +179,6 @@ document.getElementById("lol-filter").addEventListener("change",() => {
   </div> 
   `    
 });
-/*
-//PARA SUBIR  AL INICIO
-$(document).ready(function(){
-  $('.ir-arriba').click(function(){
-    $('body,html').animate({
-      scrollTop: '0px'
-    },300);
-  });
-});*/
 
 
-//PARA LLAMAR AL DIV CON EL RESULT
-/*let resultDiv = (data) => {
-  containerResult.innerHTML = "";
-  data.forEach(element => {
-    containerResult.innerHTML += `
-    <div id="flip-container">
-      <div class='cards'>
-        <li class='name'> ${element.name}</li>
-        <img class='front' src="${element.img}"/>
-        <hr>
-        <div class='back'>
-          <li class='title'> ${element.difficulty}</li>
-        </div>
-      </div>
-    </div> `  
-  })
-}*/
   
