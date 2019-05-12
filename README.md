@@ -11,11 +11,11 @@
 * [A-Contexto](#A-Contexto)
 * [B-Resumen del proyecto](#B-resumen-del-proyecto)
 * [1-Planificación](#1-Planificación)
-* [2-Investigación:-Radiografía-Gamers-🤓](#2-Investigación:-Radiografía-Gamers-🤓)
+* [2-Investigación: Radiografía Gamers🤓](#2-Investigación:-Radiografía-Gamers🤓)
 * [3-¿Cómo son los Gamers Chilenos?](#3-¿Cómo-son-los-Gamers-Chilenos?)
 * [4-Recolección de Datos](#4-Recolección-de-Datos)
 * [5-Proceso de Diseño](#5-Proceso-de-Diseño)
-* [6-MATCH GAMER](6-MATCH-GAMER)
+* [6-MATCH GAMER](#6-MATCH-GAMER)
 
 
 
@@ -87,7 +87,7 @@ En resumen, podemos concluir que tanto los gamers como los jugadores ocasionales
 
 ![gfk](src/img/gfk.jpg)
 
-Referencias de Investigación: [GFK](https://trello.com/b/Nup1KMh3/league-of-legend)
+Referencias de Investigación: [GFK](http://los40.cl/los40/2017/05/31/actualidad/1496249056_171242.html)
 
 ---
 ---
@@ -160,11 +160,15 @@ En resumen, el tipo de usuario entrevistado es un jugador principiante de League
 Durante la entrevista con el usuario se destacan: la diversidad de campeones que se pueden usar en el juego. 
 La cantidad, ya que al ser cientos de personajes se hace complicado para un jugador principiante el poder reconocerlos y asociarlos con sus roles, dificultad, etc. 
 Por lo que se hace importante, para necesidad de nuestro usuario:
-•	Si pudiese visualizar la información concisa de los campeones (nombres e imágenes)
+•	Si pudiese visualizar la información concisa de los campeones (nombres e imágenes).
+
 •	Si pudiese ordenar por la dificultad de uso de cada uno.
+
 •	Si pudiese ver los tipos/roles que cumplen cada campeón.
+
 •   Y quizás, de manera secundaria, información extra como los puntos de vida y de maná (energía) de cada campeón por niveles, ya que esto le facilitaría desarrollarse mejor en las partidas.
 
+---
 **HISTORIAS DE USUARIOS**
 ---
 ***
@@ -173,7 +177,7 @@ Por lo que se hace importante, para necesidad de nuestro usuario:
 3.	Yo como usuario quiero poder filtrar a los campeones por sus roles para poder identificarlos mejor.
 4.	Yo como usuario quiero poder ver qué cantidad de los campeones juega en cada rol para poder saber con qué categoría tengo mas opciones.
 
-
+---
 ### IDEACIÓN Y PROTOTIPADO
 ***
 
@@ -285,7 +289,12 @@ Considerando esta via a futuro, también bajo una temática lúdica, para poder 
 
 **Links relacionados**
 --
-- Readme Proyecto : https://gabagonzalez.github.io/SCL009-data-lovers
-- Código Proyecto  : https://gabagonzalez.github.io/SCL009-data-lovers/src/index.html
-- Trello Proyecto : https://trello.com/b/Nup1KMh3/league-of-legen
+
+- [Readme Proyecto](https://gabagonzalez.github.io/SCL009-data-lovers)
+
+- [Código Proyecto](https://gabagonzalez.github.io/SCL009-data-lovers/src/index.html)
+
+- [Trello Proyecto](hhttps://trello.com/b/Nup1KMh3/league-of-legen)
+
+
 
