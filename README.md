@@ -11,7 +11,7 @@
 * [A-Contexto](#A-Contexto)
 * [B-Resumen del proyecto](#B-resumen-del-proyecto)
 * [1-Planificación](#1-Planificación)
-* [2-Investigación: Radiografía Gamers🤓](#2-Investigación:-Radiografía-Gamers🤓)
+* [2-Investigación: Radiografía Gamers](#2-Investigación:-Radiografía-Gamers)
 * [3-¿Cómo son los Gamers Chilenos?](#3-¿Cómo-son-los-Gamers-Chilenos?)
 * [4-Recolección de Datos](#4-Recolección-de-Datos)
 * [5-Proceso de Diseño](#5-Proceso-de-Diseño)
@@ -294,7 +294,7 @@ Considerando esta via a futuro, también bajo una temática lúdica, para poder 
 
 - [Código Proyecto](https://gabagonzalez.github.io/SCL009-data-lovers/src/index.html)
 
-- [Trello Proyecto](hhttps://trello.com/b/Nup1KMh3/league-of-legen)
+- [Trello Proyecto](https://trello.com/b/Nup1KMh3/league-of-legend)
 
 
 
