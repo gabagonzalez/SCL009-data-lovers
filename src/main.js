@@ -1,5 +1,10 @@
 /* Manejo del DOM */
-
+//Fetch 
+fetch('https://raw.githubusercontent.com/gabagonzalez/SCL009-data-lovers/master/src/data/lol/lol.json')
+  .then((response) => {
+    return response.json();
+  })
+  .then((data) => {
 const lolValues = Object.values(window.LOL.data); //const para acceder a la data
 //const lolKeys = Object.keys(window.LOL.data);
 const container = document.getElementById("root");//para visualizar nuestras card en el div root
@@ -154,5 +159,45 @@ document.getElementById("lol-filter").addEventListener("change",() => {
   `    
 });
 
+/*
+    //animacion para el navbar responsive//
+    $(document).ready(main);
+     
+    let contador = 1;
+     
+    function main(){
+    	$('.menu_bar').click(function(){
+    		// $('nav').toggle(); 
+     
+    		if(contador == 1){
+    			$('nav').animate({
+    				left: '0'
+    			});
+    			contador = 0;
+    		} else {
+    			contador = 1;
+    			$('nav').animate({
+    				left: '-100%'
+    			});
+    		}
+     
+    	});
+     
+    };
+    /*
+    Fetch (?)
+    fetch('https://raw.githubusercontent.com/gabagonzalez/SCL009-data-lovers/master/src/data/lol/lol.json')
+      .then((response) => {
+        return response.json();
+      })
+      .then((data) => {
+        let dataLol = Object.values(data);
+        containerOfAllFunctions(dataLol);
+
+      })
+      .catch((error) => {
+        alert('Error' + error.message);*/
+
+      })
 
   
